@@ -1,4 +1,5 @@
 ### Week 3 homework - a good penguin graph in 1 hour
+# Below is a graph that shows flipper length each year across each of the three islands.
 
 #-------------------------------
 
@@ -12,7 +13,7 @@
 library(palmerpenguins)
 library(tidyverse)
 library(here)
-library(beyonce)
+library(beyonce) # didn't end up using this one in the final script.
 
 #-------------------------------
 
@@ -22,7 +23,8 @@ head(penguins)
 
 #-------------------------------
 
-# first script attempt (commented out as I realized I shouldn't do geom_point, please disregard this attempt)
+# first plot script attempt (commented out as I realized I shouldn't do geom_point, 
+# please disregard this attempt)
 
 #ggplot(data=penguins,
 #       mapping = aes(x = bill_length_mm,
@@ -44,7 +46,7 @@ head(penguins)
 
 #------------------------------
 
-# second script attempt, without geom_point()
+# second plot script attempt, without geom_point()
 
 my_plot <- ggplot(data=penguins, # define the data frame & assign to my_plot
        mapping = aes(x = year, # set the x axis
