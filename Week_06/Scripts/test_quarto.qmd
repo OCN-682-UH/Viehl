@@ -1,0 +1,52 @@
+---
+title: "Test Document for Quarto Practice"
+author: "Kat Viehl"
+format: html
+editor: visual
+---
+
+### My document
+
+```{r}
+# Use the green button in the upper right hand corner to add a code box
+
+1+1
+```
+
+This is 1+1
+
+------------------------------------------------------------------------
+
+Ctrl+Alt+I also works to insert an R script box:
+
+```{r}
+
+```
+
+This is awesome!
+
+```{r}
+#| warning: false
+
+# use the above to never print a warning in the beautiful HTML document CHUNK
+# can put it in the YAML at the top to apply to every chunk
+
+```
+
+```{r}
+#| message: false
+
+# if you want the message (not warning) to not appear
+```
+
+Often do warning/message: false at the top of the YAML for cleaner files
+
+```{r}
+#| echo: false 
+
+# does not show the code! (only do if your intended audience doesn't care about code)
+```
+
+This dataset has `r nrow(penguins)` rows and `r ncol(penguins)` columns
+
+can be used to insert R code directly into your quarto.

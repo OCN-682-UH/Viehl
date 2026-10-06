@@ -1,0 +1,93 @@
+---
+title: "quarto2_lecture"
+author: "Kat Viehl"
+format: 
+  html:
+    code-fold: true
+    code-summary: "Show code"
+---
+
+## This is my Quarto document for lecture 2
+
+Load libraries
+
+```{r}
+
+library(tidyverse)
+library(here)
+library(palmerpenguins)
+library(ggplot2)
+library(kableExtra)
+
+```
+
+Down here I'll make a simple plot
+
+NOTE: THE CODE CHUNK OPTIONS HAVE TO BE EXACTLY THIS FORMAT TO WORK:
+
+```{r}
+#| label: fig-penguin-flipmass
+#| fig-width: 3
+#| fig-height: 5
+#| fig-align: "center"
+#| fig-cap: "Body mass vs flipper length by species"
+#| echo: false
+
+penguins |> 
+  ggplot(mapping = aes(x = body_mass_g,
+                       y = flipper_length_mm,
+                       color = species))+
+  geom_point()
+
+
+
+```
+
+next section - kableExtra
+
+great for making awesome tables!
+
+
+```{r}
+#| label: tbl-peng
+#| tbl-cap: "Table of the mean bill length highlighting chinstrap penguins"
+#| echo: false
+penguins |> 
+  group_by(species) |> 
+  summarise(billmean = mean(bill_length_mm, na.rm = TRUE)) |> 
+  kbl() |> 
+  kable_classic() |> 
+  row_spec(2, bold = TRUE, color = "white", background = "red") |> 
+  kable_styling(full_width = FALSE)
+```
+
+
+gt and gtExtra are also cool table packages
+
+
+--------------------------------------------
+
+Cross-references: figures
+
+I have a label in @fig-penguin-flipmass to see if this works
+
+Woah it labels it! 
+
+If you're gonna call things in the markdown it has to start with fig- or tbl-
+
+now trying it with @tbl-peng to see if it works
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

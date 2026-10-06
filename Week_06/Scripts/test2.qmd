@@ -1,0 +1,60 @@
+---
+title: "Inline R Code Activity"
+author: "Kat Viehl"
+format: html
+---
+
+Testing Quarto!
+
+```{r}
+
+#load libraries
+library(palmerpenguins)
+library(dplyr)
+library(tidyverse)
+library(here)
+library(ggplot2)
+
+#look at data
+head(penguins)
+
+
+```
+
+This penguin dataset above summarizes three species of penguins and their body measurements across three islands
+
+```{r}
+
+penguins |> 
+  mean(bill_length_mm, na.rm = TRUE)
+
+# this doesn't work because of the tidyverse, need to use summarise or do:
+
+mean(penguins$bill_depth_mm, na.rm=TRUE)
+
+```
+
+
+The average bill length is `r round(mean(penguins$bill_length_mm, na.rm = TRUE))` millimeters. <- THIS WORKS
+
+
+Posit Connect Cloud is a free hosted service where you can publish and share your rendered Quarto documents, R markdown, and shiny apps.
+
+connect.posit.cloud
+
+
+
+
+
+```{r}
+
+library(beepr)
+
+beep(5)
+beep(9)
+
+# this can make a sound to alert you when your code is done!
+
+```
+
+
