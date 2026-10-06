@@ -13,6 +13,11 @@
   * Data  -  Contains raw data files in .csv or similar format
   * Output  -  Any processed files produced by scripts
   * Scripts  -  The things I write in R Studio at a reasonable hour
+ 
+
+----------------------------------------
+
+* Week_06: [link to homework](https://01a1135d-c683-38b2-906a-76d4d36ea77f.share.connect.posit.cloud)
 
 ----------------------------------------
 
