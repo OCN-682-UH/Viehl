@@ -1,0 +1,340 @@
+---
+title: "Maps Lecture 1 Notes"
+author: "Kat Viehl"
+format:
+  html:
+    code-fold: true
+    code-summary: "**Show code**"
+    theme: minty
+execute:
+  warning: false
+  message: false
+---
+
+### Today we will be talking about mapping functions.
+
+Let's begin by loading some libraries:
+
+(maps, mapdata, and mapproj are new!)
+
+```{r}
+
+library(tidyverse)
+library(here)
+#library(rsconnect) # maybe no need
+library(maps)
+library(mapdata)
+library(mapproj)
+
+```
+
+
+---
+
+### Outline
+
+Today we will be working with Maps!
+
+specifically the {maps} function
+and the {sf} function
+
+---
+
+### Part one: Package overview
+
+{maps} is the package we will use today. Very simple
+
+{sf} and {rnaturalearth} are more complicated and fancy map packages for people who love making fancy maps
+
+{maptiles} for the online lecture (uses satellite data)
+
+{leaflet} interactive maps
+
+{tmap} more interactive maps
+
+{ggmap} the kind of free trial that requires a credit card
+
+---
+
+### Load in Data
+
+```{r}
+
+# Population in California by county
+popdata <- read_csv(here("Week_07", "Data", "CApopdata.csv"))
+
+# Seastar counts at field sites in California
+stars <- read_csv(here("Week_07", "Data", "stars.csv"))
+
+```
+### Make a new dataframe
+
+```{r}
+
+world <- map_data("world")
+
+head(world)
+
+
+```
+
+### Can also do this with countries:
+
+```{r}
+usa <- map_data("usa")
+
+head(usa)
+
+```
+
+### Can also call "state" or "county"
+
+```{r}
+states <- map_data("state")
+
+head(states)
+```
+
+```{r}
+counties <- map_data("county")
+
+head(counties)
+```
+
+
+These will pull all the data for the states and counties in the (mainland) US.
+
+---
+
+### Structure of the data
+
+long - longitude
+
+lat - latitude
+
+order - the order in which ggplot connects the dots
+
+region/subregion - the region or subregion a set of points surrounds
+
+group - THIS ONE IS IMPORTANT : control whether the points next to each other are connected or not. Points in the same group get connected, different groups cause ggplot to "lift the pen"
+
+### Donʻt forget group = group!!!
+
+---
+
+# ok make a basic map time!
+
+```{r}
+ggplot() +
+  geom_polygon(data = world,
+               aes(x = long, y = lat,
+                   group = group))
+```
+
+Nice, alright
+
+---
+
+### But why are the aesthetics inside of the geom_polygon instead of the ggplot?
+
+Because we want them to be separate from ALL plots, we only want it to apply to the polygon plot.
+
+### More details
+
+```{r}
+ggplot() +
+  geom_polygon(data = world,
+               aes(x = long, y = lat,
+                   group = group,
+                   fill = region),
+               color = "black") +
+  guides(fill = "none") +   # Make sure to remove the guide or else we will have SO MUCH Legend that there is no map
+  theme_minimal() +         # Make the theme minimal!
+  theme(panel.background =
+          element_rect(fill = "lightblue")) +   # make the ocean blue!
+  coord_map(projection = "sinusoidal",   # change the projection
+            xlim = c(-180, 180))
+```
+
+ok add california map data:
+
+```{r}
+
+CA_data <- states |> 
+  filter(region == "california")
+
+```
+
+
+
+Challenge: Make a simple map of california!
+
+```{r}
+ggplot() +
+  geom_polygon(data = CA_data,
+               aes(x = long, y = lat,
+                   group = group,
+                   fill = region))   # no need to do this, but just wanted to see what it'd look like
+```
+
+
+
+Messing around with counties:
+
+```{r}
+
+# extract california counties data
+CA_county_data <- counties |> 
+  filter(region == "california")
+
+
+CA_county_state <- inner_join(CA_county_data, CA_data, by = "region")
+
+
+
+```
+
+Whoops I really messed up the join and now have a bunch of .x/.y's
+
+
+OK let's try again to add counties:
+
+```{r}
+ggplot() +
+  geom_polygon(data = CA_county_state,
+               color = "black",
+               aes(x = long.x, y = lat.x,
+                   group = group.x,
+                   fill = subregion.x)) +
+  labs(title = "Map of California",
+       x = "Longitude",
+       y = "Latitude")+
+  coord_map(projection = "mercator")+
+  theme_void()
+```
+
+Ok next up: add multiple layers of data
+
+```{r}
+ggplot() +
+  geom_polygon(data = CA_data,
+               aes(x = long, y = lat,
+                   group = group),
+               color = "black") +
+  coord_map() +
+  theme_void()
+```
+
+
+First thing is we will inner_join population with county data
+
+```{r}
+CApop_county <- popdata |>
+  select("subregion" = County, Population) |>   # rename to match counties
+  inner_join(counties) |>
+  filter(region == "california")                 # some county names repeat in other states
+
+
+head(CApop_county)
+```
+
+
+Make a map using all of the pop data:
+
+```{r}
+ggplot() +
+  geom_polygon(data = CApop_county,
+               aes(x = long, y = lat,
+                   group = group,
+                   fill = Population),
+               color = "black") +
+  coord_map() +
+  theme_void() +
+  scale_fill_gradient(transform = "log10")
+```
+
+What if we had some sea star data we wanted to slap on the map?
+
+```{r}
+head(stars)
+```
+
+
+```{r}
+ggplot() +
+  geom_polygon(data = CApop_county,
+               aes(x = long, 
+                   y = lat,
+                   group = group,
+                   fill = Population),
+               color = "black") +
+  geom_point(data = stars,
+             aes(x = long,
+                 y = lat,
+                 size = star_no),
+             shape = 18) +
+  coord_map() +
+  theme_void() +
+  scale_fill_gradient(transform = "log10") +
+  labs(size = "# stars/m²")
+
+
+ggsave(here("Week_07", "Output", "CApop.pdf"))
+```
+
+### Ok that was fun!
+
+Now time for a brief overview of {sf} + {rnaturalearth}
+
+{sf} stands for simple features and is the current standard for spatial data
+
+- spatial objects are just dataframes, all tidyverse verbs work on them
+
+- handles projections, CRS transformations, spatial joins natively
+
+- no need to manage group manually!
+
+---
+
+Let's give {sf} a shot
+
+```{r}
+
+library(sf)
+library(rnaturalearth)
+library(rnaturalearthdata)
+
+world_sf <- ne_countries(scale = "medium",    # get the data
+                         returnclass = "sf")
+
+ggplot(world_sf) +
+  geom_sf(fill = "lightgray",    # plot the data
+          color = "white") +
+  theme_void()
+```
+
+Nice! 
+
+```{r}
+
+ggplot(world_sf) +
+  geom_sf(fill = "lightgray", color = "white") +
+  coord_sf(crs = "+proj=robin") + # Robinson projection
+  theme_void() +
+  labs(title = "Robinson Projection")
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,320 @@
+---
+title: "Maps - Week 07 Homework"
+author: "Kat Viehl"
+format:
+  html:
+    code-fold: true
+    code-summary: "**Show code**"
+    theme:
+      light: minty
+execute:
+  warning: false
+  message: false
+---
+
+---
+
+Created on 2026-10-06
+
+---
+
+### Making a Fun Cat Map
+
+First thing's first, let's load the libraries:
+
+
+```{r}
+
+library(tidyverse)
+library(here)
+library(maps)
+library(mapdata)
+library(mapproj)
+library(sf)
+library(rnaturalearth)
+library(rnaturalearthdata)
+library(ggthemes)
+```
+
+
+---
+
+
+### Import Cats Data from UK Cats
+
+Let's bring in the data:
+
+```{r}
+
+cats_uk <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-01-31/cats_uk.csv')
+
+cats_uk_reference <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-01-31/cats_uk_reference.csv')
+
+
+```
+
+### Add the UK mapdata
+
+First, take the world data
+
+```{r}
+
+world <- map_data("world")
+
+head(world)
+
+```
+
+Then, extract the region
+
+```{r}
+
+#Combine the data to get the british isles:
+BI_data <- world |> 
+  filter(region == "Ireland"| region == "UK")
+
+```
+
+Time to make a base map of the British Isles!
+
+```{r}
+#| fig-align: center
+# Map of UK+Ireland island area
+
+ggplot() +
+  geom_polygon(data = BI_data,
+               color = "black",
+               fill = "lightgray",
+               aes(x = long, y = lat,
+                   group = group))+
+  coord_map(projection = "mercator")+
+  theme_classic()+
+  theme(panel.background =
+          element_rect(fill = "#E7F6FF",
+                     color = "#E7F6ff"),
+        panel.grid.major = 
+          element_line(color = "#D3E6ff"),
+        axis.line =
+          element_line(color = "#D3E6ff"),
+        title = element_text(face = "bold"),
+        plot.title = element_text(hjust = 0.5)) +
+  labs(title = "Map of the British Isles",
+       x = "Longitude",
+       y = "Latitude")+
+  guides(fill = "none")
+
+```
+
+Ok! Adding some points maybe?
+
+```{r}
+
+ggplot() +
+  geom_polygon(data = BI_data,
+               color = "black",
+               fill = "lightgray",
+               aes(x = long, y = lat,
+                   group = group))+
+  coord_map(projection = "mercator")+
+  geom_point(data = cats_uk,
+             aes(x = location_long, y = location_lat,
+                 group = tag_id))+
+  theme_classic()+
+  theme(panel.background =
+          element_rect(fill = "#E7F6FF",
+                     color = "#E7F6ff"),
+        panel.grid.major = 
+          element_line(color = "#D3E6ff"),
+        axis.line =
+          element_line(color = "#D3E6ff"),
+        title = element_text(face = "bold"),
+        plot.title = element_text(hjust = 0.5)) +
+  labs(title = "Map of the British Isles",
+       x = "Longitude",
+       y = "Latitude")+
+  guides(fill = "none")
+
+
+```
+
+Wow, they're alllllll at the bottom. Let's see if we can zoom in.
+
+```{r}
+
+ggplot() +
+  geom_polygon(data = BI_data,
+               color = "black",
+               fill = "lightgray",
+               aes(x = long, y = lat,
+                   group = group))+
+  coord_map(projection = "mercator",
+            xlim = c(-7,-3),
+            ylim = c(50, 52))+
+  geom_point(data = cats_uk,
+             aes(x = location_long, y = location_lat,
+                 group = tag_id))+
+  theme_classic()+
+  theme(panel.background =
+          element_rect(fill = "#E7F6FF",
+                     color = "#E7F6ff"),
+        panel.grid.major = 
+          element_line(color = "#D3E6ff"),
+        axis.line =
+          element_line(color = "#D3E6ff"),
+        title = element_text(face = "bold"),
+        plot.title = element_text(hjust = 0.5)) +
+  labs(title = "Map of the British Isles",
+       x = "Longitude",
+       y = "Latitude")+
+  guides(fill = "none")
+
+
+```
+
+Wow that looks Terrible. I'm not sure how to make the resolution less.... awful?
+
+
+OK let's try something different. Let's start with an sf map:
+
+```{r}
+library(sf)
+library(rnaturalearth)
+library(rnaturalearthdata)
+
+world_sf <- ne_countries(scale = "medium",
+                         returnclass = "sf")
+
+ggplot(world_sf) +
+  geom_sf(fill = "lightgray",
+          color = "white") +
+  coord_sf(xlim = c(-7,-3),
+          ylim = c(50, 52))+
+  theme_classic()
+```
+
+You know what, I'm giving up here for a bit. Let's try a different dataset:
+
+
+### Plastic Pollution!
+
+First, load in the data 
+
+```{r}
+
+plastics <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-01-26/plastics.csv')
+
+```
+
+Let's see what this data looks like:
+
+```{r}
+
+head(plastics, n = 4)
+
+```
+
+OK-- this looks like something I can work with! 
+
+So, going back to the base map data:
+
+```{r}
+
+world <- map_data("world")
+
+ggplot() +
+  geom_polygon(data = world,
+               aes(x = long, 
+                   y = lat,
+                   group = group,
+                   fill = region),
+               color = "black")+
+  guides(fill = "none")
+
+```
+
+OK so that's a good base map to start with. Let's look at the plastics data again. We could do a number of events per country heatmap. We could also do a number of participants, or amount of plastic per country. We could do all three.
+
+Let's first try to make a number of events per country.
+
+First we must full_join the two datasets. Where do they match up? region/country. The headings are different. Let's fix that.
+
+```{r}
+
+plastics |> 
+  rename(region = country) |> 
+  #then, inner_join
+  full_join(world) -> world_plastics
+
+```
+
+OK that dataset seems a bit massive. Let's see how it looks.
+
+```{r}
+head(world_plastics)
+```
+
+OK, that's a bit too massive. Plotting it didn't really work. Let's see if we can slim it down somehow.
+
+What if we only looked at Coke plastics?
+
+```{r}
+
+world_plastics |> 
+  filter(parent_company == "The Coca-Cola Company") -> coke_plastics
+
+
+coke_plastics |> 
+  ggplot() +
+  geom_polygon(data = world,
+               aes(x = long, y = lat,
+                   group = group),
+               fill = "lightgray")+
+  geom_polygon(aes(x = long, 
+                   y = lat,
+                   group = group,
+                   fill = grand_total))+
+  scale_fill_continuous(palette = c("yellow", "orange", "red"))
+
+```
+
+Ok let's try with more than just coke plastics.
+
+```{r}
+
+world_plastics |> 
+  filter(parent_company == "The Coca-Cola Company"| 
+         parent_company == "PepsiCo"|
+         parent_company == "Nestlé") |> 
+  filter_out(grand_total == "0") -> us_plastics
+
+
+us_plastics |> 
+  ggplot() +
+    geom_polygon(data = world,
+                 aes(x = long, y = lat,
+                     group = group),
+                 fill = "gray")+
+    geom_polygon(aes(x = long, 
+                     y = lat,
+                     group = group,
+                     fill = log(grand_total)))+
+    scale_fill_gradientn(colors = c("yellow", "orange", "red"),
+                         guide = guide_colourbar(direction = "horizontal",
+                                                 title.position = "bottom"))+
+    facet_wrap(~parent_company, ncol=2)+
+    theme_grey()+
+    theme(legend.position = c(0.8,0.2),
+          plot.title = element_text(face = "bold", size = 15),
+          axis.title = element_text(face = "bold", size = 10),
+          plot.tag = element_text(face = "bold", size = 10),
+          plot.tag.position = c(0.81,0.35))+
+    labs(fill = NULL,
+         title = "Amount of Nestlé, Pepsi, and Coke Plastics Collected per Country",
+         subtitle = "Collected during Break Free From Plastic Cleanup Events",
+         caption = "Gray = no data available",
+         x = "Longitude",
+         y = "Latitude",
+         tag = "Log of Total Plastic")
+
+```
+
