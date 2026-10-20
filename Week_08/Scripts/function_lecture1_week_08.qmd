@@ -1,0 +1,295 @@
+---
+title: "Function Lecture 1 - Week 08"
+author: "Kat Viehl"
+format:
+  html:
+    code-fold: true
+    code-summary: "**Show code**"
+    theme:
+      light: cerulean
+execute:
+  warning: false
+  message: false
+---
+
+Created on: 2026-10-13
+
+Last updated on: 2026-10-13
+
+---
+
+### Libraries:
+
+```{r}
+
+library(tidyverse)          # For many things including ggplot and dplyr
+library(here)
+library(palmerpenguins)
+library(PNWColors)
+
+
+```
+
+
+---
+
+### Functions!
+
+Redoes a bunch of stuff that you do lots (avoids copy/paste!)
+
+
+```{r}
+
+# rnorm generates a number of random numbers:
+
+df <- tibble(
+  a = rnorm(10),
+  b = rnorm(10),
+  c = rnorm(10),
+  d = rnorm(10)
+)
+
+head(df)
+
+```
+
+
+If I wanted to manually rescale:
+
+```{r}
+
+df <- df |> 
+  mutate(a = (a - min(a, na.rm = TRUE)) / (max(a, na.rm = TRUE) - min(a, na.rm = TRUE)))
+
+head(df)
+
+```
+
+
+If you wanted to do this for a, b, c, and d, you'd copy/paste it a bunch. But errors may arise!!!
+
+So: functions!
+
+```{r}
+
+# set a function
+
+rescale01 <- function(x) {
+  value <- (x - min(x, na.rm = TRUE)) / (max(x, na.rm = TRUE) - min(x, na.rm = TRUE))
+  return(value)
+}
+
+# now use the function!
+
+df |>
+  mutate(
+    a = rescale01(a),
+    b = rescale01(b),
+    c = rescale01(c),
+    d = rescale01(d)
+  )
+
+
+```
+
+
+OR you can use the everything() function with your new function!
+
+```{r}
+
+df |>
+  mutate(across(everything(), rescale01))
+
+```
+
+Functions must have a name that is 1. easy to remember, 2. easy to spell, 3. describe the function
+
+Functions have arguments, function(x) has one argument, function(x,y,z) has three.
+
+Function body is contained within the {  } blocks containing code
+
+Return statement is what the function returns
+
+
+### Functions minimize repetitive tasks!
+
+Example 1: convert Fahrenheight to Celsius
+
+```{r}
+
+# simple function:
+
+temp_C <- (temp_F - 32) * 5 / 9
+
+```
+
+Let's make the function
+
+```{r}
+
+f_to_celsius <- function() {
+  # code goes here!!!
+  
+}
+
+```
+
+
+```{r}
+
+# make sure to comment the function as well!
+
+# assign an argument in function(temp_F), temp_F is the argument!!
+
+f_to_celsius <- function(temp_F) {
+  # convert temp_F to C
+  temp_C <- (temp_F - 32) * 5 / 9
+  # write what it will return
+  return(temp_C)
+}
+
+
+f_to_celsius(32)  # will give 32 farenheight to celsius (which is zero!)
+
+
+```
+
+
+
+```{r}
+
+c_to_kelv <- function(temp_c) {
+  #convert celsius to kelvin
+  temp_K <- temp_c + 273.15
+  # return
+  return(temp_K)
+}
+
+
+c_to_kelv(2)
+
+
+c_to_kelv(f_to_celsius(32))
+
+```
+
+OK what if you want to make a function for a plot?
+
+You can make your own personalized theme, or exactly the same parameters
+
+
+
+```{r}
+
+
+
+pal <- pnw_palette("Lake", 3, type = "discrete")
+
+ggplot(penguins, aes(x = body_mass_g, 
+                     y = bill_length_mm, 
+                     color = island)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  scale_color_manual("Island", 
+                     values = pal) +
+  theme_bw()
+
+
+```
+
+Let's make this into a function:
+
+
+```{r}
+
+
+# if you add data = penguins in the function() area, this would set a default!!!
+penguinplot <- function(data = penguins, x, y) {
+  pal <- pnw_palette("Lake", 3, type = "discrete")
+
+  ggplot(data, aes(x = {{x}}, y = {{y}}, color = island)) +
+    geom_point() +
+    geom_smooth(method = "lm") +
+    scale_color_manual("Island", values = pal) +
+    theme_bw()
+}
+
+
+```
+
+WHENEVER you have a function being called from within a dataframe, you need to add a curly-curly {{}}!!!
+
+```{r}
+
+# if you have the dataframe preset, no need to specify penguins
+penguinplot(penguins, x = body_mass_g, y = bill_length_mm)
+
+
+penguinplot(penguins, x = body_mass_g, y = flipper_length_mm)
+
+```
+
+```{r}
+
+penguinplot(x = body_mass_g, y = flipper_length_mm)+
+  labs(title = "Testing functions!")
+
+```
+
+###Adding control flow with if-else:
+
+Let's say we want the user to be able to choose their own path
+
+```{r}
+
+a <- 4
+b <- 5
+
+# The parenthesis has to include a logical statement.
+
+if (a > b) {
+  f <- 20
+} else {
+  f <- 10
+}
+
+f
+
+```
+
+Now let's add it to our plot!
+
+```{r}
+
+myplot <- function(data = penguins, x, y, lines = TRUE) { # you must add an argument for lines
+  pal <- pnw_palette("Lake", 3, type = "discrete")
+  
+  if (lines == TRUE) {  # IF lines is exactly equal to true, do the following:
+    ggplot(data, aes(x = {{x}}, y = {{y}}, color = island)) +
+      geom_point() +
+      geom_smooth(method = "lm") +
+      scale_color_manual("Island", values = pal) +
+      theme_bw()
+  } else {              # IF lines is not TRUE, no geom smooth:
+    ggplot(data, aes(x = {{x}}, y = {{y}}, color = island)) +
+      geom_point() +
+      scale_color_manual("Island", values = pal) +
+      theme_bw()
+  }
+}
+
+myplot(x = body_mass_g, y = flipper_length_mm, lines = FALSE)
+
+```
+
+
+Homework:
+ 1. Create any dataset you’d like
+ 2. Write two useful functions:
+  - One that creates a plot
+  - One that does something else
+ 3. Create a Quarto document showing:
+  - At least 2 examples per function
+  - Evidence of the function’s flexibility
+ 4. Due: Tuesday at 1 PM
+
