@@ -57,6 +57,9 @@ writers <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/ti
 
 
 
+# bring in the rating data set David and I created by adding our rankings to each unique episode title in a .csv:
+drwho_ratings <- readr::read_csv(here("goodplot-badplot", "Data", "kat_david_drwho-ratings.csv"))
+
 ```
 
 
@@ -73,14 +76,9 @@ episodes |>
   full_join(directors, by = "story_number") |> 
   
   # then add the writers to that list
-  full_join(writers, by = "story_number") -> combined_drwho
+  full_join(writers, by = "story_number") |> 
 
-
-# bring in the rating data set David and I created by adding our rankings to each unique episode title in a .csv:
-drwho_ratings <- read.csv(here("goodplot-badplot", "Data", "kat_david_drwho-ratings.csv"))
-
-# combine our ratings with the dataset:
-combined_drwho |> 
+# combine our ratings with the ratings dataset:
   full_join(drwho_ratings, by = "episode_title") |> 
   
   # edit David's rankings to be numbers instead of letters (I tried to make this a function but couldn't figure it out) :(
@@ -347,6 +345,8 @@ plot1 + plot2
 #  doc      = here("goodplot-badplot", "Scripts", "goodplot-badplot.qmd"),  # path to your .qmd
 #  appTitle = "OCN 682 - Kat Viehl - Good Plot / Bad Plot"        # give it a clear title
 #)
+
+# The above code did not work, so I used the buttons to publish!
 
 ```
 

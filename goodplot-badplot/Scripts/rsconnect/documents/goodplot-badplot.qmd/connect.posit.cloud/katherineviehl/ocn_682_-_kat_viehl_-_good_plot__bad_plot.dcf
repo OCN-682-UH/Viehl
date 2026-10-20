@@ -8,3 +8,7 @@ appId: 01a156ee-5e85-6b38-eec6-cb45f73f631d
 bundleId:
 url: https://connect.posit.cloud/katherineviehl/content/01a156ee-5e85-6b38-eec6-cb45f73f631d
 version: 1
+quarto_version: 1.10.18
+quarto_engines: knitr
+asMultiple: FALSE
+asStatic: FALSE
