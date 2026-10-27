@@ -1,0 +1,236 @@
+---
+title: "Factoring Homework - Barnacles in Tides"
+author: "Kat Viehl"
+format:
+  html:
+    code-fold: true
+    code-summary: "**Show code**"
+    theme:
+      light: lux
+execute:
+  warning: false
+  message: false
+page-layout: full
+---
+
+Created on : 2026-10-25
+
+Updated on : 2026-10-26
+
+---
+
+### Load Libraries:
+
+```{r}
+
+library(tidyverse)
+library(here)
+library(forcats)
+library(janitor)
+library(ggthemes)
+library(PNWColors)
+
+```
+
+
+### Load in Data:
+
+```{r}
+
+intertidaldata <- read_csv(here("Week_09", "Data", "intertidaldata.csv"))
+
+head(intertidaldata)
+
+```
+
+This dataset contains species abundance information in the form of percent cover and individual counts of some species (Whelks, Crabs, and Stars). First, the column titles need to be converted to a more R-friendly format.
+
+---
+
+### Cleaning Data Column Titles Using Janitor
+
+```{r}
+
+intertidaldata |> 
+  clean_names() -> clean_intertidaldata
+
+```
+
+---
+
+### Check the Data
+
+```{r}
+
+glimpse(clean_intertidaldata)
+
+```
+
+
+The column names look a lot better, but I can already see some errors in the intertidal data file. Let's get a summary of what's going on in there.
+
+```{r}
+
+clean_intertidaldata |> 
+  count(quadrat, sort = TRUE)
+
+```
+
+OK so those two, "Low ." and "Mid 1" look like typos, so let's fix them.
+
+```{r}
+
+# I'm pretty sure there is a WAY better method to do this, but I couldn't figure it out :(
+
+# pipe the dataframe in
+clean_intertidaldata |> 
+  
+  # mutate the row to replace the problem value with the correct value
+  mutate(quadrat = replace(clean_intertidaldata$quadrat, 
+                           grep("Low  .", 
+                                clean_intertidaldata$quadrat), 
+                           "Low")) -> fixed_intertidaldata 
+fixed_intertidaldata |> 
+  # do the same thing with the other problem type 
+  mutate(quadrat = replace(fixed_intertidaldata$quadrat,
+                           grep("Mid  1",
+                                fixed_intertidaldata$quadrat),
+                           "Mid")) -> fixed_intertidaldata
+
+
+# Now let's check the data:
+
+fixed_intertidaldata |> 
+  count(quadrat, sort = TRUE)
+
+```
+
+Much better!
+
+Let's check the other categories as well:
+
+```{r}
+
+# check site
+fixed_intertidaldata |> 
+  count(site, sort = TRUE)
+
+# check transect
+fixed_intertidaldata |> 
+  count(transect, sort = TRUE)
+
+
+
+```
+
+Both site and transect seem correct. Alright, let's factor!
+
+---
+
+### Factoring by Quadrat to Order the Levels:
+
+```{r}
+
+# mutate the quadrat column to be a factor with levels "low", "mid", and "high":
+fixed_intertidaldata |> 
+  mutate(quadrat = factor(quadrat, levels = c("Low", "Mid", "High"))) -> fixed_intertidaldata
+
+glimpse(fixed_intertidaldata$quadrat)
+
+```
+
+Let's say I'm only interested in seeing the difference in percent cover of the three barnacle types at low, mid, and high quadrats. See code below for barnacle data selection and summarizing.
+
+```{r}
+
+fixed_intertidaldata |> 
+  
+  # keep only barnacles and site identifiers
+  select(site, 
+         transect, 
+         quadrat, 
+         small_barnacles, 
+         large_barnacles, 
+         gooseneck_barnacles) |> 
+  
+  # pivot longer 
+  pivot_longer(cols = c(small_barnacles, large_barnacles, gooseneck_barnacles), 
+               names_to = "barnacle_type", 
+               values_to = "percent_cover") -> barnacles_data
+
+# group_by and summarise the average percent cover into a separate variable
+barnacles_data |> 
+  group_by(site, quadrat, barnacle_type) |> 
+  summarise(avg_percent_cover = mean(percent_cover)) -> barnacles_data_avg
+
+glimpse(barnacles_data_avg)
+
+```
+
+Looks good. Now, let's plot.
+
+---
+
+### Plotting
+
+```{r}
+#| fig-align: center
+#| label: fig-barnacles
+#| fig-cap: "Average percent cover of each type of barnacle per site sampled. Average of 10 transects per quadrat. Cape Meares shows the highest proportion of large barnacles, while Starfish Point has an abundance of small barnacles at the High quadrat. Overall barnacles appear to be more common in the higher quadrats, with a few exceptions."
+#| fig-width: 11
+#| fig-height: 8
+
+barnacles_data_avg |> 
+  ggplot(mapping = aes(x = quadrat,
+                       y = avg_percent_cover,               # base plot
+                       color = fct_reorder2(barnacle_type, quadrat, barnacle_type), # reorder the legend
+                       fill = barnacle_type)) +
+  
+  # make a column graph
+  geom_col() +
+  
+  # facet wrap by site
+  facet_wrap(~site) +
+  
+  # flip the coordinates to be more aesthetically pleasing
+  coord_flip() +
+  
+  # add ylim as "100" was not showing
+  ylim(0, 100) +
+  
+  # base theme
+  theme_hc() +
+  
+  # edit some of the grid lines to be darker:
+  theme(panel.grid.major.x = element_line(color = "darkgray"),
+        title = element_text(face = "bold", size = 18)) +
+  
+  # labels
+  labs(title = "Intertidal Barnacle Cover",
+       subtitle = "Average Percent Cover of Three Barnacle Types per Site",
+       x = "Quadrat Tide Height",
+       y = "Average Percent Cover",
+       fill = "Barnacle Type:") +
+  
+  # add pretty colors and more lables
+  scale_fill_manual(values = pnw_palette("Starfish", n = 3),
+                    labels = c("Gooseneck Barnacles", "Large Barnacles", "Small Barnacles")) +
+  
+  # this helps separate out the colors above
+  scale_color_manual(values = c("white", "white", "white")) +
+  
+  # remove color legend
+  guides(color = "none")
+
+```
+
+Finally, save the plot:
+
+```{r}
+
+#ggsave(here("Week_09", "Output", "barnacle_plot.png"),
+#       height = 8,
+#       width = 11)
+
+```
+
