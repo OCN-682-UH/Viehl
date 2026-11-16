@@ -22,6 +22,7 @@
 * Week_07: [link to homework](https://01a1336f-994e-eef1-0c3f-ed496277bfbd.share.connect.posit.cloud)
 * Week_08: [link to homework](https://01a15b73-6d85-be5f-ebbc-7c0953eabe3c.share.connect.posit.cloud/)
 * Week_09: [link to homework](https://01a17f49-7e34-797b-42a3-062f5c389887.share.connect.posit.cloud/)
+* Week_12: [link to homework](https://01a1e34c-8b2f-88d3-ed24-01cae96f1f8c.share.connect.posit.cloud/)
 
 ----------------------------------------
 
