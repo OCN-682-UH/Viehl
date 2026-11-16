@@ -1,0 +1,45 @@
+---
+title: "Make Shiny Apps"
+author: "Kat Viehl"
+format: html
+---
+
+---
+
+Load Libraries:
+
+```{r}
+
+library(shiny)
+
+```
+
+---
+
+
+### Shiny Apps!
+
+Creates a connection between your R code and a user interfacing website
+
+Shiny apps are great for teaching! Showing data visualization to non-experts to make it transparent
+
+---
+
+There are only three lines of code needed to make a shiny app!
+
+A Shiny App MUST be in a folder by itself! (Outside of this class, it should be in its own repo!)
+
+EVERY Shiny app must be app.R, the name of your app has to be the name of the folder!!!
+
+---
+
+Since shiny apps are not quartossss.... most of the practicing will be in my test shiny apps.
+
+Make sure to separate parenthesis!!!
+
+---
+
+Inputs!!!
+
+You NEED to have an input ID - "inputId"
+
