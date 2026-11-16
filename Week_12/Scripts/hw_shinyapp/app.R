@@ -9,6 +9,13 @@
 
 library(shiny)
 library(tidyverse)
+library(here)
+library(ggthemes)
+
+
+# bring in data (this is also brought in below within the shinyapp, but it kept erroring to publish, so here it is up here as well!)
+
+mfu_eDNA_data <- read_csv("cleanmfu_eDNA.csv")
 
 
 # ok! Plan for this app: I will use my clean eDNA data from week 8 and make an app that allows you to interact with it!.
@@ -41,7 +48,7 @@ ui <- fluidPage(
   # dropdown for family
   selectInput("select", 
               label = h3("Select a Family to Summarize:"),
-              choices = sort(unique(mfu_eDNA_data2$family)), 
+              choices = sort(unique(mfu_eDNA_data$family)), 
               selected = 1),
   
   # buttons for plot format
@@ -78,7 +85,7 @@ server <- function(input, output){
     
     # bring in data
     
-    mfu_eDNA_data <- read_csv(here("Week_12", "Data", "cleanmfu_eDNA.csv"))
+    mfu_eDNA_data <- read_csv("cleanmfu_eDNA.csv")
     
     # summarizing the data that is about to be removed into a new dataframe:
     

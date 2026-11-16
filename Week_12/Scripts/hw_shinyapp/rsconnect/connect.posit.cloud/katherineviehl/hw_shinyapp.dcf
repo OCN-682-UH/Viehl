@@ -1,0 +1,12 @@
+name: hw_shinyapp
+title: hw_shinyapp
+username: katherineviehl
+account: katherineviehl
+server: connect.posit.cloud
+hostUrl: https://api.connect.posit.cloud/v1
+appId: 01a1e34c-8b2f-88d3-ed24-01cae96f1f8c
+bundleId:
+url: https://connect.posit.cloud/katherineviehl/content/01a1e34c-8b2f-88d3-ed24-01cae96f1f8c
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
