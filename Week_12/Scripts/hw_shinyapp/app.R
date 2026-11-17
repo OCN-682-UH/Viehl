@@ -11,24 +11,27 @@ library(shiny)
 library(tidyverse)
 library(here)
 library(ggthemes)
+library(DT)
 
 
 # bring in data (this is also brought in below within the shinyapp, but it kept erroring to publish, so here it is up here as well!)
 
 mfu_eDNA_data <- read_csv("cleanmfu_eDNA.csv")
+## use below if running code not as the app
+#mfu_eDNA_data <- read_csv(here("Week_12", "Data", "cleanmfu_eDNA.csv"))
 
 
 # ok! Plan for this app: I will use my clean eDNA data from week 8 and make an app that allows you to interact with it!.
 
 
-# shiny code! (where the inputs go)
+# shiny code! (where the inputs and fancy text goes)
 ui <- fluidPage(
   
   # a title!
   h1("eDNA Data Explorer - MiFish U/E Multiplex & Master Mix Comparison"),
   "Created by: Kat Viehl",
   br(),
-  "Created on: 2026-11-15",
+  "Created on: 2026-11-15",     # these are all text, and br() is a line break.
   br(),
   "Data from: me testing master mixes and primers in the ToBo lab",
   br(),
@@ -54,13 +57,20 @@ ui <- fluidPage(
   # buttons for plot format
   radioButtons("droppedornot", label = h3("Select Data Type:"),
                choices = list("Sequences Identified to Species" = "mfu_eDNA_data_clean", 
-                              "Dropped Sequences (Unknown genera/species within the family; does not work if there is no dropped data.)" = "removed_data",
+                              "Dropped Sequences" = "removed_data",
                               "All Data" = "mfu_eDNA_data"), 
                selected = "mfu_eDNA_data_clean"),
   
+  "(If the plot is blank, there are no sequences of the type selected above.)",
+  
+  # I'm not 100% sure what this does, but the widget gallery had it at the end of every script:
   hr(),
   fluidRow(column(3, verbatimTextOutput("value"))),
+  
+  # output the plot with a bit bigger height than the default
   plotOutput("eDNAcol", height = "600px"),
+  
+  # more text
   br(),
   h1("Table of Detections in the Selected Family:"),
   br(),
@@ -71,7 +81,7 @@ ui <- fluidPage(
   "indicates that there were multiple genera or species identified for the same sequence,", 
   br(),
   "making it impossible to confidently assign the identity.",
-  dataTableOutput("details")
+  DTOutput("details")
   
 )
 
@@ -83,7 +93,7 @@ server <- function(input, output){
     
     
     
-    # bring in data
+    # bring in data (again, I'm not sure if this is needed since it is also before the start of the app code.)
     
     mfu_eDNA_data <- read_csv("cleanmfu_eDNA.csv")
     
@@ -100,9 +110,10 @@ server <- function(input, output){
       filter_out(species == "dropped") -> mfu_eDNA_data_clean
     
     
+    ######################################### 
+    ######################################### Plot function below:
     
-    
-    # create eDNA function (from my week 08 homework! I want to see if I can make this more easy to interact with using dropdowns)
+    # create eDNA function (from my week 08 homework! I want to see if I can make this more easy to interact with using dropdowns and buttons)
     plot_eDNA <- function(data, first_sample_ID, plotby_taxa = phylum, stack_or_fill = "stack",
                           domains = "none", kingdoms = "none", phyla = "none", classes = "none",
                           orders = "none", families = "none", genera = "none", specieses = "none") {
@@ -205,14 +216,19 @@ server <- function(input, output){
         labs(title = title_text,
              subtitle = "Use arguments above to visualize specific families",
              caption = "All samples above contain the same template DNA. All differences are due to master mix changes and/or PCR stochasticity.",
-             x = "Site / Sample Name",               # labels
+             x = "Sample Name",               # labels
              y = y_axis) -> eDNA_plot
       
       return(eDNA_plot)
       
     }
     
-    # have to do this in order to get the dataframe names back
+    ######################################### Plot function complete
+    ######################################### 
+    
+    
+    
+    # have to do this (switch()) in order to get the dataframe names correct instead of listed as a string of their name.
     to_be_plotted <- reactive({
       switch(input$droppedornot, 
              "mfu_eDNA_data_clean" = mfu_eDNA_data_clean, 
@@ -221,30 +237,37 @@ server <- function(input, output){
              )
     })
     
+    
+    # use the function created above to plot the user inputs:
     plot_eDNA(to_be_plotted(), 
               first_sample_ID = EQ_MFE_1, 
               plotby_taxa = species, 
               families = input$select, 
               stack_or_fill = input$seqtype)
-    
+    # If I can figure out how to eliminate the first_sample_ID requirement, I could make this app compatible with submitting other eDNA datasets...
     
 
 
   })
   
+  # subset the entire dataframe based on what the user inputs for family
   df_subset <- reactive({
     a <- subset(mfu_eDNA_data, family == input$select)
     return(a)
   })
   
   
-  
-  output$details <- renderDataTable({
+  # output the table of subsetted data
+  output$details <- renderDT({
+    
+    # assign this so it can be required to have data
     subsetted <- df_subset()
+    req(subsetted, nrow(subsetted) > 0)  # this makes it so that the table is only rendered if data exists! (I think technically this is not necessary as there are no selectable options that generate zero rows)
     
-    req(subsetted, nrow(subsetted) > 0)
-    
-    df_subset()
+    # present the data table with options!
+    datatable(df_subset(),
+              options = list(paging = FALSE,    # this option removes the pages, as the subsets are small enough that it is not needed
+                             scrollX = TRUE))   # this option adds a scroll bar on the X axis for better aesthetics! Source: https://forum.posit.co/t/scrollable-datatable-in-bslib-in-shiny-app/173866/4
     
     })
 

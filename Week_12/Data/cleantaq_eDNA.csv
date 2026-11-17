@@ -1,0 +1,624 @@
+domain,kingdom,phylum,class,order,family,genus,species,OTU,numberOfUnq_BlastHits,T11_S32_L001,T12_S33_L001,T13_S34_L001,T16_S37_L001,T17_S38_L001,T18_S39_L001,T1_S22_L001,T21_S42_L001,T22_S43_L001,T23_S44_L001,T26_S47_L001,T27_S48_L001,T28_S49_L001,T2_S23_L001,T31_S52_L001,T32_S53_L001,T33_S54_L001,T36_S57_L001,T37_S58_L001,T38_S59_L001,T3_S24_L001,T6_S27_L001,T7_S28_L001,T8_S29_L001
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu1,10,19553,15683,19718,17124,17211,16520,20399,21192,18577,22335,25347,29179,28541,19248,20247,17766,22823,21690,25332,19961,24318,20544,23852,21150
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu2,10,14826,11432,14698,13910,13093,13520,16052,16808,14261,17914,19802,22883,22672,14709,15720,13190,17250,17726,18987,16400,19069,16302,18969,16912
+Eukaryota,Metazoa,Porifera,Demospongiae,Tetractinellida,dropped,dropped,dropped,Zotu3,10,8158,5660,6650,14148,9630,11129,17997,17744,13072,15760,10733,8817,9860,13789,10363,7856,9141,16716,14234,13367,15282,8584,8378,6886
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu4,10,8770,6666,8438,8045,7660,7762,8773,9108,8172,9558,11482,13167,12517,8006,9082,7684,9871,10233,11267,9099,10307,9505,10361,8999
+Eukaryota,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,dropped,dropped,dropped,Zotu5,2,6689,6968,7276,7501,9924,8937,1292,1301,2022,1703,5464,8302,7578,2313,8559,9313,10102,8342,14254,10172,1572,3933,7348,4887
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu6,10,8579,6921,8695,7607,7292,7620,9022,9287,8092,9797,10899,12631,12603,8175,8819,7712,10031,9648,10632,8643,10606,9053,10388,9111
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia sp.,Zotu7,6,2812,2969,2679,4040,3876,3275,8507,8639,7985,7470,4356,4088,4001,8312,4071,3948,3576,4574,6116,3396,7331,3220,3956,2501
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu8,10,5255,4056,5363,4716,4624,4519,4927,5173,4503,4898,6447,7417,7336,4561,5474,4851,6397,5787,6866,5107,5788,5206,6144,5409
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu9,10,5817,4366,5786,4886,4899,4843,5884,6479,5431,6862,7309,8510,8706,5559,6083,5169,7180,6082,6683,5826,7313,5994,6920,6501
+Eukaryota,NA,Rhodophyta,Florideophyceae,Peyssonneliales,Peyssonneliaceae,dropped,dropped,Zotu11,4,2128,1947,1893,4856,4939,4336,1205,1263,1485,1207,3275,4046,3201,1617,2692,2714,2569,5886,7530,5184,1143,2456,3551,2083
+Eukaryota,NA,NA,dropped,dropped,dropped,dropped,dropped,Zotu12,3,2263,1855,1523,3389,2849,2031,3251,3174,2968,2411,2868,2505,2227,2979,2972,2427,2077,3935,4481,2198,2249,2084,2666,1533
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu13,10,3184,2532,3186,4590,4183,4777,3877,3953,3404,4314,5180,6072,6276,3387,3636,3135,4167,5980,6176,5789,4843,4355,5007,4642
+Eukaryota,NA,NA,Pelagophyceae,Pelagomonadales,Pelagomonadaceae,dropped,dropped,Zotu14,9,5341,3541,4224,2343,1688,1455,4972,5052,3686,3858,2875,2177,2205,4076,7000,4876,5939,2613,2598,1655,3764,2238,2170,1463
+Eukaryota,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,dropped,dropped,dropped,Zotu16,2,1907,2139,2240,2488,3423,2886,391,423,665,531,1844,2940,2642,683,2364,2649,3122,2618,4867,3461,524,1290,2609,1592
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu17,10,2732,2006,2764,2005,1986,1873,2600,2576,2231,2690,3267,3575,3857,2283,2763,2231,3143,2520,2983,2315,2940,2612,2787,2785
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu18,10,2407,1925,2416,2182,1865,2161,2583,2628,2079,2695,3254,3600,3662,2259,2598,2100,2877,2745,2711,2438,3010,2575,2918,2628
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu19,10,2466,2055,2531,2081,2024,1864,2512,2456,2173,2575,3078,3354,3588,2260,2721,2204,2971,2553,2892,2175,2902,2463,2899,2521
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu21,10,1914,1514,1820,1464,1512,1313,1682,1709,1515,1753,2268,2427,2496,1612,2035,1656,2193,1823,2183,1515,2022,1783,2062,1844
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu24,10,1461,1073,1513,1344,1313,1365,1416,1584,1252,1644,1934,2155,2319,1387,1577,1242,1741,1724,1966,1426,1705,1564,1769,1664
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu25,10,1657,1336,1582,1645,1677,1410,1306,1364,1233,1436,1869,2120,2150,1284,1783,1495,2158,2023,2497,1622,1493,1512,1811,1587
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu26,10,2110,1544,2020,1930,1826,1914,2249,2144,1921,2305,2642,3176,2877,2044,2064,1801,2332,2401,2642,2308,2591,2045,2455,2197
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu28,10,1794,1375,1727,1832,1793,1885,1982,2020,1723,2281,2443,2905,2884,1742,1910,1646,2132,2357,2335,2234,2296,2105,2337,2070
+Eukaryota,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Mantoniella,Mantoniella squamata,Zotu29,1,1152,872,961,1020,941,848,1256,1203,1035,1194,1252,887,1088,1140,1489,1217,1466,1112,1298,800,1088,894,880,734
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu32,10,887,633,792,1605,1387,1639,1130,1272,1025,1340,1585,1929,1961,1022,975,769,1092,2134,1923,2053,1430,1372,1552,1429
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu33,10,1268,973,1321,1540,1535,1643,1418,1484,1259,1656,1866,2301,2452,1368,1375,1241,1607,1952,2148,2052,1893,1598,1998,1753
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu36,10,744,540,678,1377,1213,1306,803,957,749,1028,1218,1505,1541,732,836,688,866,1623,1577,1614,1067,1128,1284,1156
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu37,10,1185,840,1234,1794,1594,1930,1429,1490,1344,1583,2109,2432,2474,1307,1265,1098,1454,2222,2208,2363,1802,1732,1924,1800
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu38,10,682,611,682,546,614,581,613,690,658,783,909,1012,959,690,751,650,862,660,840,660,823,699,833,641
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu42,10,742,612,698,491,559,501,653,661,599,789,895,1078,979,623,806,674,855,665,771,607,865,741,804,730
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu43,10,709,562,748,774,707,848,738,860,671,908,968,1177,1137,671,772,614,900,1037,1040,943,996,789,987,889
+Eukaryota,NA,NA,dropped,dropped,dropped,dropped,dropped,Zotu44,3,452,499,372,629,685,471,579,652,669,548,546,552,517,671,582,604,450,775,1044,457,494,403,621,382
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu45,10,675,535,621,628,595,530,514,523,474,510,880,912,943,525,779,675,883,790,932,624,540,607,715,678
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,Callyspongiidae,Callyspongia,Callyspongia plicifera,Zotu46,1,463,465,493,868,1189,786,156,177,216,176,561,564,536,224,636,731,717,953,1804,733,157,369,485,340
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu50,10,571,456,480,459,429,453,551,573,516,601,756,796,868,497,561,473,603,613,633,571,625,557,667,554
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu51,10,805,599,878,718,757,657,794,863,713,881,1037,1244,1171,734,953,767,960,979,938,896,927,861,939,955
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu61,10,586,452,575,506,532,520,550,611,606,711,753,908,831,528,612,525,695,742,703,668,622,614,728,582
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu63,10,422,356,399,321,333,288,400,430,381,413,509,539,549,394,475,383,508,419,510,311,510,399,435,408
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Zoantharia,Nanozoanthidae,Nanozoanthus,Nanozoanthus aff. harenaceus MISE-OSE3,Zotu64,1,0,0,993,0,0,1283,0,0,0,1396,0,0,989,0,0,0,1326,0,1,1237,1350,0,0,690
+Eukaryota,Metazoa,Porifera,Demospongiae,dropped,dropped,dropped,dropped,Zotu65,10,317,303,270,329,349,312,409,420,511,444,228,248,228,495,414,453,419,330,558,321,480,135,272,162
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu66,10,326,297,319,243,273,253,322,308,289,321,414,447,424,225,380,337,451,374,404,279,344,328,370,360
+Eukaryota,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,dropped,dropped,dropped,Zotu68,2,312,317,361,290,427,333,65,75,119,60,289,400,409,103,412,429,460,312,579,385,63,207,375,244
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu69,10,453,325,371,353,352,296,387,370,325,373,442,509,487,322,436,370,475,400,482,334,450,379,473,345
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu70,10,261,190,244,390,387,418,308,350,248,336,453,593,585,293,274,235,325,570,539,496,390,402,477,439
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu71,10,80,216,355,56,167,243,147,199,511,708,82,283,379,658,125,325,425,70,368,207,679,67,259,271
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu74,10,208,130,169,473,348,492,245,293,241,267,416,482,518,208,214,151,241,619,568,609,308,317,387,348
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu76,10,270,225,287,450,430,511,346,361,286,386,485,616,690,301,293,305,353,663,609,643,431,414,522,486
+Eukaryota,NA,Bacillariophyta,Fragilariophyceae,Thalassionemales,Thalassionemataceae,Thalassiothrix,Thalassiothrix sp.,Zotu78,2,116,198,186,159,246,230,247,285,448,357,139,178,219,522,190,297,240,154,437,222,430,118,205,153
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu79,10,254,187,263,165,218,158,233,215,219,244,264,305,291,222,247,200,260,218,297,195,244,189,275,196
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu82,10,255,177,246,199,207,215,245,250,187,239,294,312,368,168,269,195,322,267,280,275,278,272,241,288
+Eukaryota,NA,NA,dropped,dropped,dropped,dropped,dropped,Zotu83,2,231,143,193,259,167,210,304,282,204,279,226,106,164,230,257,174,310,293,233,200,237,172,153,89
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu84,10,301,227,307,379,357,450,288,311,321,332,456,544,505,271,373,302,366,497,486,541,376,386,376,365
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu86,10,317,294,348,354,326,284,326,356,303,361,446,561,546,303,405,343,435,422,451,380,359,433,383,379
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu88,10,170,139,194,176,178,169,178,135,159,190,220,204,253,163,162,143,226,210,248,195,207,180,209,181
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,dropped,dropped,Zotu92,10,166,155,212,112,152,101,263,293,250,333,156,108,198,269,242,263,299,142,262,98,360,95,97,152
+Eukaryota,Metazoa,Porifera,Calcarea,Clathrinida,Clathrinidae,NA,Clathrinidae sp. 8 JV-2020,Zotu93,1,207,286,282,191,318,201,43,37,79,67,246,342,252,85,254,333,361,134,421,139,40,135,311,171
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu97,10,339,315,408,397,351,352,363,387,388,414,472,542,635,364,416,361,441,442,534,475,444,418,517,419
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,Merulinidae,dropped,dropped,Zotu99,10,209,177,188,241,256,158,183,216,212,173,150,159,158,242,261,255,260,245,370,171,185,129,174,115
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu104,10,173,126,160,215,186,167,166,164,168,191,232,250,243,151,161,184,225,254,268,201,192,187,220,170
+Eukaryota,Metazoa,Porifera,Calcarea,Clathrinida,Clathrinidae,NA,Clathrinidae sp. 5 JV-2020,Zotu106,10,22,15,457,24,27,716,11,6,14,141,22,20,586,7,36,33,650,29,61,683,114,23,19,386
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Alteromonadales,Alteromonadaceae,Alteromonas,dropped,Zotu108,10,351,300,214,449,388,206,8,14,10,4,94,90,64,22,141,141,105,250,337,105,8,75,61,38
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,Poritidae,Porites,dropped,Zotu109,8,160,173,141,126,228,114,130,118,165,122,99,152,106,218,206,265,191,97,363,107,90,75,146,88
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu110,10,165,116,139,93,111,97,90,95,61,111,133,145,173,73,141,96,142,128,164,97,117,99,145,111
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu112,10,196,145,188,107,139,155,186,176,140,163,241,244,252,149,209,183,241,151,206,152,187,173,213,231
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu114,10,139,148,176,121,124,132,126,128,128,157,190,240,204,120,176,133,194,120,163,135,195,142,198,148
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,Prochlorococcus marinus str. MIT 9515,Zotu117,10,110,102,121,119,104,120,57,118,101,86,140,147,166,91,121,150,175,142,197,105,128,126,122,127
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu120,10,264,206,284,259,225,214,275,333,238,304,350,403,386,244,295,262,325,329,312,295,330,216,339,318
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,Prochlorococcus marinus str. MIT 9515,Zotu123,10,158,131,177,138,125,136,136,158,121,164,153,163,223,126,173,137,218,139,160,142,143,116,132,145
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu124,10,106,68,108,81,100,106,101,77,78,82,111,129,131,108,118,113,137,132,159,112,104,93,143,105
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu126,10,271,203,250,210,185,200,234,233,204,306,309,375,383,245,309,257,300,259,325,256,311,265,307,239
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu131,10,207,124,193,216,213,218,201,221,173,226,254,354,360,164,237,189,215,273,313,282,250,263,261,283
+Eukaryota,NA,NA,dropped,dropped,dropped,dropped,dropped,Zotu132,2,83,55,92,99,73,91,150,116,65,114,109,52,93,108,122,83,109,138,117,49,104,93,68,71
+Eukaryota,NA,Picozoa,Picomonadea,Picomonadida,Picomonadidae,Picomonas,Picomonas judraskeda,Zotu133,1,107,103,112,167,146,95,39,32,25,37,88,64,97,35,201,127,158,138,159,103,33,69,48,58
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,Merulinidae,dropped,dropped,Zotu136,10,101,69,129,116,111,90,81,75,98,113,73,73,99,115,104,110,185,103,153,107,88,56,79,82
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,Prochlorococcus marinus str. MIT 9302,Zotu141,10,96,61,115,95,81,102,90,87,92,100,113,152,156,70,99,79,122,147,138,118,92,110,107,113
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu143,10,153,91,131,87,84,70,118,129,96,114,155,154,172,91,149,97,165,101,115,77,118,125,131,103
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu146,10,71,66,74,49,65,46,78,81,68,78,109,97,114,65,88,92,87,79,78,50,73,97,99,68
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu148,10,135,88,131,143,122,172,105,127,78,107,146,166,222,103,124,102,135,197,210,222,152,137,158,141
+Eukaryota,Metazoa,Porifera,Demospongiae,dropped,dropped,dropped,dropped,Zotu154,10,71,46,52,91,87,82,89,79,99,117,44,61,50,77,96,69,76,108,141,56,88,21,52,30
+Eukaryota,NA,Rhodophyta,Florideophyceae,Corallinales,Porolithaceae,Porolithon,Porolithon sp.,Zotu158,4,65,86,88,43,106,41,21,32,64,30,75,122,85,52,88,114,91,55,128,33,28,40,111,57
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu159,10,102,80,91,92,97,115,85,128,88,120,129,151,134,85,114,107,121,155,146,119,134,107,121,113
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu162,10,193,154,183,173,149,160,153,194,165,190,256,256,277,153,186,166,213,210,251,175,215,202,235,218
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu163,10,128,59,67,105,83,55,27,16,8,8,100,71,60,13,161,66,86,144,133,52,13,57,55,34
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu164,10,157,129,151,124,113,116,124,132,138,131,147,205,198,133,172,149,192,160,182,156,147,152,186,156
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu166,10,108,87,103,98,79,86,114,103,78,94,116,161,151,98,105,75,123,110,140,96,119,100,131,83
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,Chalinidae,Haliclona,Haliclona laubenfelsi,Zotu167,7,43,66,47,97,163,71,23,16,20,24,54,75,37,36,101,110,60,141,277,69,9,44,70,28
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu169,10,160,107,145,155,184,150,170,165,114,168,225,231,247,146,175,124,194,204,224,202,218,176,210,182
+Eukaryota,Viridiplantae,Chlorophyta,Chloropicophyceae,Chloropicales,Chloropicaceae,Chloropicon,dropped,Zotu170,10,128,161,184,51,79,35,2,0,9,3,33,45,52,13,99,160,184,54,103,23,5,25,29,41
+Eukaryota,NA,NA,Eustigmatophyceae,Eustigmatales,Monodopsidaceae,Nannochloropsis,Nannochloropsis gaditana,Zotu172,1,114,61,80,55,51,34,114,108,68,82,43,26,52,77,131,93,117,86,83,43,74,33,26,24
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu175,10,90,8,85,76,5,54,154,145,37,136,80,10,69,20,123,9,91,89,7,61,130,55,4,46
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu176,10,61,45,73,43,52,61,47,58,60,57,74,72,80,71,59,54,89,71,70,66,52,65,79,71
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Alteromonadales,Shewanellaceae,Shewanella,Shewanella sp. NFH-SH190041,Zotu180,1,38,39,59,79,52,45,19,31,23,51,64,51,63,46,39,57,71,75,86,60,40,58,52,40
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,Pocilloporidae,Pocillopora,Pocillopora verrucosa,Zotu186,2,36,91,77,62,140,47,56,48,84,65,33,79,45,113,47,118,89,72,198,66,59,27,62,26
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu188,10,35,39,35,148,109,192,51,66,54,77,98,115,140,53,40,46,36,188,161,250,74,92,112,96
+Eukaryota,NA,Rhodophyta,Florideophyceae,Corallinales,dropped,dropped,dropped,Zotu191,10,27,61,75,32,35,53,14,12,21,52,51,42,103,33,57,77,133,25,43,41,63,20,62,71
+Eukaryota,NA,NA,dropped,dropped,dropped,dropped,dropped,Zotu193,2,60,31,35,53,19,49,50,42,52,81,36,24,54,36,69,42,83,75,66,45,50,41,25,24
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu194,10,52,41,67,66,51,56,49,55,49,56,67,79,81,54,52,65,62,59,104,66,51,70,71,75
+Eukaryota,Metazoa,Porifera,Demospongiae,Dictyoceratida,dropped,dropped,dropped,Zotu196,10,73,59,83,53,65,46,104,79,65,82,60,50,56,76,96,101,117,56,89,49,66,42,53,36
+Eukaryota,NA,NA,NA,NA,NA,NA,Stramenopiles sp. MAST-8B-sp1,Zotu197,1,46,31,85,56,27,31,88,69,52,65,28,50,54,58,85,58,77,57,43,35,58,28,50,21
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,dropped,dropped,dropped,Zotu205,10,68,72,40,83,90,49,70,46,80,57,51,60,31,78,93,82,58,70,163,36,54,54,56,33
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu206,10,144,101,149,149,134,123,121,157,117,119,186,216,217,123,155,144,153,161,183,181,161,151,156,131
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu210,10,45,32,31,39,26,12,122,91,37,55,71,38,41,53,80,46,36,26,42,32,72,47,35,24
+Eukaryota,NA,NA,NA,NA,NA,NA,Stramenopiles sp. MAST-1C-sp1,Zotu212,1,72,52,57,71,94,64,20,20,19,12,45,39,41,24,102,79,83,76,94,51,15,45,49,26
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,Prochlorococcus marinus str. MIT 9215,Zotu213,10,51,48,87,68,75,68,60,74,56,80,83,129,109,59,113,85,96,92,106,79,82,75,95,82
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia abrensis,Zotu214,5,67,38,13,71,42,5,121,91,36,33,71,43,31,60,103,53,32,62,45,8,38,41,45,7
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia sp.,Zotu215,10,3,10,14,80,65,215,97,92,132,200,38,67,90,126,12,17,17,86,119,192,216,28,64,75
+Eukaryota,Metazoa,Porifera,Demospongiae,Tetractinellida,Theonellidae,Theonella,Theonella sp. HBOI 1-IX-93-1-015,Zotu217,10,53,18,50,301,202,346,147,159,107,234,142,152,184,123,63,41,71,399,324,472,209,115,133,142
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu218,10,38,33,53,54,40,40,34,46,35,47,68,58,74,41,63,50,59,62,58,46,57,43,57,52
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,Prochlorococcus marinus str. MIT 9515,Zotu220,10,90,62,76,67,86,76,74,52,61,64,106,102,97,71,99,73,83,90,85,88,113,86,99,76
+Eukaryota,NA,NA,NA,NA,NA,Corallochytrium,Corallochytrium limacisporum,Zotu222,1,64,52,73,25,19,8,60,54,38,54,46,28,39,30,93,51,82,23,32,18,45,56,31,36
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia caciantha,Zotu228,10,25,2,77,37,0,55,66,64,0,154,40,0,59,0,42,0,112,34,0,74,171,21,0,52
+Eukaryota,Metazoa,Mollusca,Bivalvia,Galeommatida,Lasaeidae,Kellia,Kellia cf. jacksoniana,Zotu230,10,0,131,0,0,129,0,0,0,200,0,0,53,0,127,0,201,0,0,236,0,0,0,52,0
+Eukaryota,NA,Rhodophyta,Florideophyceae,Peyssonneliales,Peyssonneliaceae,Peyssonnelia,Peyssonnelia dubyi,Zotu231,4,54,48,32,87,92,55,15,23,27,14,67,43,29,30,54,57,42,102,131,41,8,42,43,36
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,Prochlorococcus sp. MIT 0604,Zotu234,10,52,33,57,43,36,26,47,34,34,36,40,52,52,32,38,39,62,50,62,27,25,39,51,49
+Eukaryota,NA,NA,dropped,dropped,dropped,dropped,dropped,Zotu241,2,56,30,74,40,34,31,57,65,46,49,42,34,35,49,85,46,64,43,54,22,43,37,20,25
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu255,10,4,13,3,22,50,105,17,34,76,149,15,46,49,88,2,17,10,6,71,86,108,5,48,42
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Naviculales,Naviculaceae,Navicula,Navicula tripunctata,Zotu257,10,19,20,26,92,151,104,13,2,5,4,14,16,21,9,26,17,34,99,230,96,2,6,23,18
+Eukaryota,Metazoa,Porifera,Demospongiae,Tetractinellida,Theonellidae,Theonella,Theonella sp. HBOI 1-IX-93-1-015,Zotu258,10,21,24,23,144,144,174,50,67,86,52,55,101,96,76,37,20,31,145,175,244,82,45,102,75
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Cellvibrionales,Porticoccaceae,NA,Porticoccaceae bacterium LTM1,Zotu262,2,31,21,23,49,36,41,16,20,9,17,41,21,35,25,29,19,38,66,54,46,29,30,19,21
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia sp.,Zotu263,10,9,8,6,66,45,62,66,66,66,63,23,27,29,53,10,5,10,64,72,57,83,30,22,20
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu265,10,110,74,97,89,77,45,76,88,59,100,102,98,100,61,107,88,107,83,115,65,86,55,82,88
+Eukaryota,NA,NA,NA,NA,NA,NA,Stramenopiles sp. MAST-3F-sp1,Zotu268,1,34,28,42,26,28,16,50,30,32,29,46,37,38,37,67,42,48,29,31,12,36,31,42,27
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Naviculales,Naviculaceae,Navicula,dropped,Zotu269,10,7,24,27,104,206,101,1,4,0,0,10,16,14,1,11,23,26,87,307,101,7,5,14,8
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,dropped,dropped,Zotu271,10,2,3,4,51,42,56,74,63,59,78,29,30,32,53,12,11,11,59,55,72,92,25,18,26
+Eukaryota,NA,NA,dropped,dropped,dropped,dropped,dropped,Zotu272,2,34,10,23,33,23,24,38,28,33,32,19,22,24,18,27,32,36,21,51,19,30,29,12,13
+Eukaryota,Metazoa,Porifera,Calcarea,Leucosolenida,dropped,dropped,dropped,Zotu277,10,32,37,33,39,60,26,9,7,13,7,43,50,21,18,47,70,35,34,89,21,5,27,53,18
+Eukaryota,NA,Bacillariophyta,Coscinodiscophyceae,Coscinodiscales,Coscinodiscaceae,Planktoniella,dropped,Zotu278,10,46,11,60,47,23,47,17,25,10,21,44,6,39,6,49,24,83,40,46,48,12,31,9,25
+Eukaryota,NA,NA,dropped,dropped,dropped,dropped,dropped,Zotu285,2,10,18,28,31,16,24,35,31,20,32,38,20,20,35,34,18,29,25,22,34,35,24,28,18
+Eukaryota,NA,Rhodophyta,Florideophyceae,Peyssonneliales,Peyssonneliaceae,Peyssonnelia,Peyssonnelia dubyi,Zotu288,4,28,35,31,140,101,110,8,8,7,7,40,39,23,11,51,36,51,137,170,101,4,19,37,22
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu295,10,12,1,72,2,0,40,15,23,0,154,7,0,59,0,3,0,60,15,0,56,118,4,4,41
+Eukaryota,Metazoa,Porifera,Demospongiae,Dictyoceratida,Irciniidae,Ircinia,dropped,Zotu298,10,42,34,41,29,70,12,21,26,48,33,32,29,26,68,42,64,44,29,65,19,47,28,51,20
+Eukaryota,Metazoa,Annelida,Polychaeta,Sabellida,Serpulidae,dropped,dropped,Zotu299,10,28,18,35,72,26,36,12,6,6,10,18,13,25,7,40,19,35,60,49,39,21,21,18,27
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,dropped,dropped,dropped,Zotu301,3,56,53,46,15,18,16,33,27,22,45,6,14,11,42,66,52,60,41,46,30,32,8,6,16
+Eukaryota,Metazoa,Porifera,Calcarea,Clathrinida,Clathrinidae,dropped,dropped,Zotu315,7,50,29,38,33,41,29,7,7,14,16,35,36,34,10,57,39,36,34,53,25,20,29,25,27
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Alteromonadales,Alteromonadaceae,Alteromonas,dropped,Zotu316,10,64,38,28,96,65,33,1,1,0,0,9,20,4,6,14,14,12,53,60,12,1,13,13,6
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,dropped,dropped,Zotu317,10,5,3,6,29,34,38,32,38,43,52,19,10,23,50,3,8,12,35,44,39,56,12,8,16
+Eukaryota,Metazoa,Porifera,Demospongiae,Dictyoceratida,dropped,dropped,dropped,Zotu318,10,34,27,20,28,39,9,45,36,38,32,26,24,20,38,40,25,23,60,51,12,18,19,31,19
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu319,10,52,31,39,50,47,69,39,55,40,47,80,77,84,40,47,51,56,56,55,62,58,57,63,68
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu325,10,39,26,32,74,62,72,23,22,25,47,63,59,72,25,45,40,44,76,88,79,45,64,55,61
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia abrensis,Zotu332,5,9,36,12,10,26,10,18,19,54,24,14,33,10,46,18,65,20,7,47,2,19,7,29,15
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu342,10,53,36,63,34,33,38,44,40,46,49,58,48,61,34,61,40,63,47,51,46,47,52,40,65
+Eukaryota,Metazoa,Porifera,Demospongiae,Dictyoceratida,dropped,dropped,dropped,Zotu345,10,20,43,30,21,25,23,24,36,49,16,11,31,34,46,35,53,31,21,50,17,16,18,30,19
+Eukaryota,NA,NA,NA,NA,NA,NA,Stramenopiles sp. MAST-8B-sp1,Zotu350,1,19,14,31,23,11,13,35,32,31,29,17,9,27,31,32,21,43,10,18,12,61,10,15,13
+Eukaryota,Metazoa,Porifera,Demospongiae,NA,NA,NA,Heteroscleromorpha sp. 3 JV-2020,Zotu354,4,21,21,20,36,35,20,25,20,16,29,12,9,12,33,27,52,35,22,75,22,20,11,6,12
+Eukaryota,Metazoa,Porifera,Demospongiae,Agelasida,Agelasidae,Agelas,dropped,Zotu356,10,2,39,17,7,21,14,6,8,36,38,0,21,13,53,9,50,30,11,53,8,25,2,18,18
+Eukaryota,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,dropped,dropped,dropped,Zotu357,2,58,66,65,164,198,172,6,1,3,4,25,44,32,4,68,70,75,191,286,243,3,21,42,31
+Eukaryota,Metazoa,Porifera,Calcarea,Leucosolenida,Leucosoleniidae,Leucosolenia,Leucosolenia sp. MMM-2001,Zotu358,10,9,44,2,2,75,4,0,2,8,0,3,62,7,29,12,56,6,11,146,5,1,4,46,2
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu359,10,22,11,12,51,14,15,6,12,6,1,18,27,19,5,43,13,24,35,21,11,4,37,21,13
+Eukaryota,Metazoa,Cnidaria,Hydrozoa,Leptothecata,Laodiceidae,Melicertissa,Melicertissa sp. AGC-2001,Zotu364,1,44,8,3,35,21,13,36,37,21,6,23,12,4,26,95,14,10,19,19,5,11,19,8,6
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu365,10,92,46,77,112,110,119,70,104,70,87,87,110,118,75,85,74,88,184,158,154,94,85,96,94
+Eukaryota,Metazoa,Porifera,Demospongiae,Dictyoceratida,dropped,dropped,dropped,Zotu369,10,32,27,23,39,31,10,37,22,36,19,17,34,18,40,33,48,34,19,55,23,17,14,29,5
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu370,10,18,14,16,72,59,67,27,28,18,27,54,52,45,23,15,19,26,101,93,118,30,32,31,46
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,dropped,dropped,dropped,Zotu373,4,36,33,30,13,20,22,20,21,20,16,11,15,10,35,43,57,56,22,34,17,20,11,5,6
+Eukaryota,Metazoa,Porifera,Demospongiae,dropped,dropped,dropped,dropped,Zotu377,10,18,21,18,21,19,18,29,18,22,17,14,13,16,21,41,14,27,25,32,9,23,8,5,10
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,Petrosiidae,dropped,dropped,Zotu378,10,13,24,17,19,22,13,16,17,41,21,12,19,15,55,18,28,21,23,53,14,13,6,13,7
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu381,10,23,0,5,25,0,6,60,74,1,22,40,1,14,4,39,0,13,24,1,11,16,30,1,2
+Eukaryota,NA,NA,Centroplasthelida,NA,NA,Meringosphaera,Meringosphaera mediterranea,Zotu383,7,25,19,15,18,17,19,1,5,1,3,12,18,9,9,40,27,14,16,58,12,1,11,14,20
+Eukaryota,Metazoa,Porifera,Calcarea,dropped,dropped,dropped,dropped,Zotu388,10,10,28,23,18,40,36,5,2,6,6,8,25,21,12,18,37,30,35,66,25,3,9,25,19
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Naviculales,Naviculaceae,Navicula,Navicula sp.,Zotu394,1,2,15,18,52,78,58,1,1,4,1,9,8,7,1,6,13,14,48,118,55,0,1,10,5
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu398,10,12,13,12,42,27,58,12,16,15,24,39,32,44,21,8,21,16,61,60,63,24,33,42,26
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Alteromonadales,Shewanellaceae,Shewanella,Shewanella sp. NFH-SH190041,Zotu399,1,14,0,7,22,21,25,7,10,12,7,16,5,12,8,14,5,8,27,27,17,14,11,5,11
+Eukaryota,Viridiplantae,Prasinodermophyta,Prasinodermophyceae,Prasinodermales,Prasinodermaceae,Prasinoderma,Prasinoderma coloniale,Zotu401,2,35,26,25,20,17,8,4,1,3,5,15,8,10,0,61,37,57,24,14,19,4,4,8,8
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu404,10,27,20,28,26,33,39,21,32,21,32,39,59,42,28,42,25,47,39,37,37,37,29,41,39
+Eukaryota,Metazoa,Porifera,Demospongiae,Agelasida,Agelasidae,Agelas,dropped,Zotu411,9,28,15,17,19,16,4,21,28,23,13,7,8,14,31,21,23,10,16,23,10,8,6,13,3
+Eukaryota,NA,NA,dropped,dropped,dropped,dropped,dropped,Zotu412,3,8,4,4,75,63,35,0,0,0,1,2,5,2,1,8,2,8,93,97,37,2,0,4,2
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Fragilariopsis,Fragilariopsis sp.,Zotu415,1,5,26,7,21,9,12,14,10,20,20,4,12,21,31,12,33,13,6,25,18,39,3,10,5
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu419,10,12,8,6,73,44,70,30,19,25,25,34,50,53,25,18,12,14,87,74,70,26,24,37,38
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Oceanospirillales,Endozoicomonadaceae,Endozoicomonas,Endozoicomonas sp.,Zotu422,1,23,6,9,24,27,17,7,1,2,1,22,6,4,3,23,9,15,39,21,15,4,6,5,4
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu428,10,8,18,3,0,35,2,3,2,81,3,2,33,0,70,0,54,0,2,67,2,3,0,44,3
+Eukaryota,NA,NA,dropped,dropped,dropped,dropped,dropped,Zotu430,2,39,24,37,49,40,44,35,37,36,50,35,18,36,42,55,21,52,75,31,35,53,19,29,26
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu435,10,3,0,3,24,2,18,32,51,9,41,25,1,9,5,5,0,4,46,1,31,30,10,3,7
+Eukaryota,Metazoa,Porifera,Demospongiae,Dictyoceratida,dropped,dropped,dropped,Zotu437,6,17,19,21,9,16,5,26,31,32,20,20,11,10,48,21,34,24,23,37,5,9,11,25,8
+Eukaryota,NA,NA,dropped,dropped,dropped,dropped,dropped,Zotu439,2,11,2,13,5,17,13,17,19,13,21,11,14,10,20,17,13,24,18,23,17,8,11,2,6
+Eukaryota,Metazoa,Porifera,Calcarea,Leucosolenida,dropped,dropped,dropped,Zotu448,10,29,22,19,18,20,24,2,2,6,4,10,23,20,4,33,39,37,18,42,20,11,13,18,14
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia sp.,Zotu455,3,46,38,34,139,112,91,77,98,67,63,45,53,41,99,57,87,66,195,169,119,65,36,41,25
+Eukaryota,NA,Bacillariophyta,Coscinodiscophyceae,Chaetocerotales,Chaetocerotaceae,Chaetoceros,Chaetoceros seychellarum,Zotu456,3,36,0,0,30,0,0,28,17,0,0,43,0,0,0,62,0,0,31,0,0,0,43,0,0
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu457,10,10,12,23,14,15,8,27,15,17,18,18,16,35,16,19,14,18,18,10,17,14,24,17,17
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu458,10,24,13,9,13,11,14,9,14,10,7,18,24,16,17,12,11,22,12,25,9,15,26,15,18
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,Coelosphaeridae,Lissodendoryx,dropped,Zotu459,6,20,17,19,9,10,13,13,15,15,23,7,7,3,22,30,34,35,6,16,10,21,4,0,7
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,Merulinidae,dropped,dropped,Zotu463,10,17,8,7,47,29,38,30,33,17,15,24,6,17,30,8,7,13,72,59,41,20,17,11,7
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,Acroporidae,Montipora,Montipora foliosa,Zotu466,10,57,17,11,25,5,2,15,11,1,2,30,9,3,6,60,17,14,36,9,2,2,23,1,1
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu468,10,22,23,23,44,41,54,36,29,27,34,30,62,47,25,37,22,30,74,61,67,43,45,36,47
+Eukaryota,Metazoa,Annelida,Polychaeta,Eunicida,Eunicidae,dropped,dropped,Zotu470,5,0,8,29,1,16,28,0,0,0,7,1,12,12,2,2,24,34,1,20,30,6,0,8,10
+Eukaryota,NA,NA,dropped,dropped,dropped,dropped,dropped,Zotu472,2,13,3,12,12,7,11,19,15,8,20,15,4,8,16,12,12,17,14,18,5,14,8,13,3
+Eukaryota,Metazoa,Cnidaria,Hydrozoa,Siphonophorae,Prayidae,Nectopyramis,Nectopyramis sp. MMM-2001,Zotu475,3,7,7,34,9,8,17,2,1,1,8,10,2,32,10,16,3,47,7,16,36,2,5,3,20
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu481,10,7,0,5,23,0,7,61,43,1,15,25,1,8,0,31,0,10,19,3,6,17,23,0,8
+Eukaryota,NA,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Thalassiosiraceae,dropped,dropped,Zotu484,10,28,7,18,14,11,9,7,6,3,9,17,9,13,1,34,16,7,12,5,3,2,14,11,4
+Eukaryota,Metazoa,Porifera,Demospongiae,Tetractinellida,dropped,dropped,dropped,Zotu485,10,11,6,5,18,24,18,24,26,19,20,17,10,8,20,20,8,9,51,29,30,20,8,15,2
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,Petrosiidae,dropped,dropped,Zotu491,10,12,4,12,19,5,13,30,26,13,14,8,8,10,6,23,10,17,25,18,16,12,9,3,1
+Eukaryota,NA,Bacillariophyta,Coscinodiscophyceae,dropped,dropped,dropped,dropped,Zotu497,10,18,10,13,22,18,15,5,0,6,0,16,2,12,5,11,12,11,15,32,3,3,9,11,2
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,Chalinidae,dropped,dropped,Zotu498,2,9,6,11,18,17,14,2,7,6,1,15,6,13,5,24,4,22,11,17,18,10,7,5,12
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu503,10,2,2,4,13,11,11,32,27,17,21,15,12,17,20,3,1,2,24,20,18,17,18,14,3
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu504,10,12,24,28,42,37,41,23,32,36,27,36,39,36,18,31,25,32,43,50,46,45,31,50,33
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia sp.,Zotu505,3,36,28,30,204,129,139,98,96,79,69,35,57,39,80,51,43,36,233,261,173,73,28,45,29
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,Acarnidae,Zyzzya,Zyzzya fuliginosa,Zotu506,1,33,16,50,11,5,9,12,13,10,19,3,2,2,15,39,25,41,6,13,5,12,0,0,1
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu507,10,7,9,12,10,8,20,11,8,15,21,18,28,17,7,11,13,16,3,10,13,13,11,12,12
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Synechococcaceae,Synechococcus,Synechococcus sp. MIT S9503,Zotu511,4,25,18,27,7,10,5,0,2,0,1,16,15,10,1,15,15,25,4,7,7,1,11,16,6
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,dropped,dropped,dropped,Zotu512,10,13,13,21,19,6,10,19,11,11,21,3,5,3,16,30,25,31,10,13,7,9,3,3,2
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,Chalinidae,Haliclona,dropped,Zotu513,7,13,15,15,14,32,13,3,7,0,6,17,10,9,6,17,25,24,16,41,11,1,9,17,5
+Eukaryota,Metazoa,Porifera,Demospongiae,Dictyoceratida,dropped,dropped,dropped,Zotu518,10,11,15,15,10,9,5,27,18,16,4,13,11,13,12,19,13,28,11,9,3,7,2,6,4
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,dropped,dropped,Zotu519,10,22,5,0,21,4,0,33,42,18,0,26,7,0,15,36,12,0,19,12,0,0,19,10,0
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,Merulinidae,dropped,dropped,Zotu522,10,8,19,6,7,27,13,12,5,25,18,8,15,14,23,11,25,17,6,32,13,16,1,19,6
+Eukaryota,NA,NA,dropped,dropped,dropped,dropped,dropped,Zotu524,2,8,13,6,9,4,5,9,11,6,9,3,5,4,4,14,13,7,20,7,10,10,9,6,3
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu525,10,19,14,16,17,18,23,23,14,13,19,18,28,25,14,21,15,20,24,17,11,20,26,24,29
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,Petrosiidae,dropped,dropped,Zotu533,10,9,9,14,9,12,15,13,15,10,26,1,9,9,18,26,17,22,11,11,25,17,2,9,6
+Eukaryota,NA,Rhodophyta,Florideophyceae,Peyssonneliales,Peyssonneliaceae,Peyssonnelia,dropped,Zotu537,6,1,4,0,37,34,30,1,3,4,3,14,14,12,3,6,2,2,49,46,24,6,13,10,10
+Eukaryota,NA,NA,NA,NA,NA,NA,Stramenopiles sp. MAST-3C-sp2,Zotu542,1,12,19,12,6,14,7,15,19,10,15,7,16,4,4,14,13,13,11,17,3,16,5,12,5
+Bacteria,NA,NA,NA,NA,NA,NA,bacterium SCSIO 12696,Zotu547,2,7,6,13,15,7,15,4,8,3,6,4,9,5,2,13,12,10,30,9,15,12,7,5,15
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu554,10,0,0,4,10,0,25,11,16,0,41,3,0,20,0,2,0,7,13,0,25,48,4,0,21
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu557,10,9,5,14,24,28,45,15,16,12,3,21,29,20,14,6,8,9,21,31,53,19,17,21,19
+Eukaryota,Metazoa,Porifera,Demospongiae,NA,NA,NA,Heteroscleromorpha sp. 3 JV-2020,Zotu564,2,5,12,15,14,20,8,10,14,11,11,8,5,5,14,13,14,29,12,17,11,10,3,9,5
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,Petrosiidae,dropped,dropped,Zotu565,10,3,49,5,8,30,3,8,3,32,6,2,3,0,39,1,49,2,10,36,6,1,1,7,0
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu578,10,21,13,19,21,18,12,12,12,12,12,19,25,20,16,28,12,20,24,25,14,16,19,23,21
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,dropped,dropped,dropped,Zotu579,8,8,10,4,6,20,14,0,1,6,1,4,10,0,2,4,18,4,19,65,8,2,1,10,3
+Eukaryota,NA,NA,Polycystinea,Spumellaria,dropped,dropped,dropped,Zotu587,4,4,14,8,3,10,13,2,5,10,4,3,4,7,10,7,6,11,5,27,3,8,1,8,5
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Cellvibrionales,Porticoccaceae,NA,Porticoccaceae bacterium LTM1,Zotu588,2,9,6,7,17,7,17,3,9,8,6,12,3,3,3,15,3,10,23,12,18,4,4,5,4
+Eukaryota,Metazoa,Cnidaria,Hydrozoa,Leptothecata,Laodiceidae,Melicertissa,Melicertissa sp. AGC-2001,Zotu589,1,7,7,6,9,12,4,6,13,8,7,4,12,1,4,9,18,17,20,17,3,6,3,15,6
+Eukaryota,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,dropped,dropped,dropped,Zotu597,2,50,61,62,187,178,132,23,19,36,30,21,58,28,23,69,84,70,136,241,207,34,26,54,30
+Eukaryota,NA,NA,NA,NA,NA,NA,Stramenopiles sp. MAST-3C-sp2,Zotu607,2,10,9,9,14,5,4,9,13,9,10,5,5,5,12,14,10,14,3,15,4,20,1,5,2
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu610,10,6,1,2,19,5,3,14,15,10,2,12,1,7,7,13,6,6,12,5,3,6,14,3,1
+Eukaryota,NA,NA,Pelagophyceae,Pelagomonadales,Pelagomonadaceae,dropped,dropped,Zotu611,9,18,13,13,25,9,14,8,2,5,6,2,2,2,4,25,10,13,28,42,27,13,2,7,1
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu613,10,13,20,17,12,26,5,11,21,19,15,19,18,31,9,22,23,21,10,22,10,16,28,21,25
+Eukaryota,NA,NA,NA,NA,NA,NA,Stramenopiles sp. MAST-8B-sp1,Zotu621,1,21,8,10,7,5,3,17,16,6,5,9,4,1,7,25,10,17,8,8,2,9,2,6,5
+Eukaryota,NA,NA,Polycystinea,Collodaria,Collozoidae,Cladococcus,Cladococcus sp. A MMS-2020,Zotu627,4,0,0,33,0,0,36,0,0,0,20,0,0,19,0,0,0,41,0,0,21,24,0,0,9
+Eukaryota,Metazoa,Porifera,Demospongiae,dropped,dropped,dropped,dropped,Zotu628,10,3,5,6,12,15,16,4,3,1,5,7,2,2,3,4,10,4,12,14,8,1,0,7,3
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Alteromonadales,Shewanellaceae,Shewanella,Shewanella sp. NFH-SH190041,Zotu629,1,4,3,10,9,7,7,5,2,4,2,8,3,8,3,6,4,6,15,8,5,4,5,1,7
+Eukaryota,Metazoa,Cnidaria,Hydrozoa,Siphonophorae,Erennidae,Erenna,dropped,Zotu630,10,37,2,0,34,4,0,2,4,1,0,22,0,0,2,36,1,0,34,5,0,0,16,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Agelasida,Agelasidae,Agelas,dropped,Zotu634,9,16,14,12,7,11,3,10,13,7,4,3,4,3,11,20,9,1,1,10,7,2,4,1,0
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu638,10,9,0,1,14,0,8,25,20,0,16,10,0,3,0,24,0,3,6,1,13,13,5,0,2
+Eukaryota,NA,Bacillariophyta,Coscinodiscophyceae,Chaetocerotales,Chaetocerotaceae,Chaetoceros,dropped,Zotu645,2,1,1,11,3,17,23,1,0,1,0,1,5,2,0,1,4,8,5,20,30,0,0,0,3
+Eukaryota,NA,NA,NA,NA,NA,NA,Stramenopiles sp. MAST-1C-sp1,Zotu655,2,5,9,10,11,8,11,0,4,3,0,4,2,2,1,14,14,12,0,20,1,0,2,7,0
+Eukaryota,Metazoa,Mollusca,Cephalopoda,Octopoda,Octopodidae,dropped,dropped,Zotu656,2,15,3,4,24,4,2,1,5,1,0,1,1,0,1,8,3,2,26,17,2,2,5,1,0
+Eukaryota,Metazoa,Mollusca,Bivalvia,Pectinida,Pectinidae,dropped,dropped,Zotu657,10,3,1,6,5,0,8,5,19,0,12,7,0,13,1,9,2,24,10,0,8,9,7,0,10
+Eukaryota,NA,NA,dropped,dropped,dropped,dropped,dropped,Zotu659,3,5,1,2,21,13,20,0,0,0,1,2,2,1,0,6,7,5,20,31,5,2,1,0,1
+Eukaryota,Metazoa,Porifera,Calcarea,Leucosolenida,dropped,dropped,dropped,Zotu661,10,17,4,6,12,19,7,0,4,0,2,11,15,5,3,7,18,11,16,39,2,3,6,12,3
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Alteromonadales,Shewanellaceae,Shewanella,Shewanella sp. NFH-SH190041,Zotu665,1,8,4,8,10,6,13,4,5,4,2,11,13,2,8,7,8,6,8,11,4,2,5,5,5
+Eukaryota,NA,Picozoa,NA,NA,NA,NA,Picobiliphyte sp. MS584-11,Zotu670,1,6,6,6,4,6,5,9,6,7,15,3,5,3,6,16,14,9,6,8,3,3,4,1,1
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,Merulinidae,dropped,dropped,Zotu671,10,5,4,1,11,10,14,12,17,14,13,9,9,6,11,3,2,7,33,32,15,8,8,4,13
+Eukaryota,NA,NA,Polycystinea,Spumellaria,dropped,dropped,dropped,Zotu673,4,4,8,5,5,9,7,15,7,4,6,5,11,1,15,7,11,7,4,22,1,2,3,5,1
+Eukaryota,Metazoa,Porifera,Calcarea,dropped,dropped,dropped,dropped,Zotu686,10,8,16,1,11,18,9,2,1,5,4,10,13,8,6,15,10,7,9,26,12,0,16,6,5
+Eukaryota,NA,NA,NA,NA,NA,NA,Stramenopiles sp. MAST-3C-sp2,Zotu687,1,7,4,8,14,10,6,6,8,10,6,11,1,8,1,5,7,6,10,15,7,7,3,5,3
+Eukaryota,Metazoa,Porifera,Calcarea,Clathrinida,Clathrinidae,dropped,dropped,Zotu697,3,10,4,3,24,9,7,3,3,0,0,8,5,1,1,6,8,14,20,17,4,4,2,10,4
+Eukaryota,NA,NA,Polycystinea,Spumellaria,Coccodiscidae,Didymocyrtis,Didymocyrtis sp. (in: eukaryotes),Zotu698,5,4,12,7,2,9,0,0,3,7,3,1,5,4,7,1,19,5,1,20,2,0,1,4,2
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,dropped,dropped,Zotu701,10,11,10,0,0,16,0,4,3,4,0,0,4,0,4,5,12,0,6,41,0,0,2,15,0
+Eukaryota,NA,Oomycota,NA,Lagenidiales,Haliphthoraceae,dropped,dropped,Zotu705,4,2,6,10,5,7,4,1,1,0,1,4,15,8,1,10,19,12,1,15,4,2,6,9,6
+Eukaryota,Metazoa,Cnidaria,Hydrozoa,Siphonophorae,Diphyidae,Lensia,Lensia conoidea,Zotu706,1,2,8,6,9,6,4,5,0,2,3,2,6,2,5,2,13,10,12,23,11,1,2,1,9
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu725,10,0,0,0,10,7,26,7,7,12,32,4,10,8,8,0,0,2,0,20,20,29,1,6,11
+Bacteria,NA,NA,NA,NA,NA,NA,bacterium SCSIO 12696,Zotu728,2,4,1,10,8,8,12,4,6,2,3,1,6,8,2,6,3,12,10,4,5,11,6,2,4
+Eukaryota,Fungi,Mucoromycota,Mortierellomycetes,Mortierellales,Mortierellaceae,Mortierella,Mortierella globalpina,Zotu732,1,14,5,8,4,7,0,10,4,8,2,6,4,1,5,13,16,17,5,2,1,1,4,3,3
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia abrensis,Zotu733,5,0,17,0,0,18,0,0,0,25,0,0,10,1,19,0,23,0,0,16,0,0,1,14,0
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu740,10,3,0,3,9,0,23,9,10,1,26,0,0,11,0,2,0,2,4,0,24,19,3,0,7
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia abrensis,Zotu741,5,3,7,0,7,5,0,6,9,16,0,6,19,0,22,11,11,0,3,19,0,1,7,10,0
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu742,10,7,1,3,42,16,12,2,6,1,6,17,5,11,4,6,3,3,28,35,20,4,3,5,2
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia americana,Zotu743,10,14,13,10,9,16,7,18,24,21,21,17,3,9,21,18,1,18,12,12,6,37,7,8,7
+Eukaryota,Metazoa,Porifera,Calcarea,Clathrinida,Lelapiellidae,Lelapiella,Lelapiella incrustans,Zotu745,7,7,4,10,13,9,15,2,1,2,3,8,5,4,1,6,11,5,16,10,9,0,7,9,3
+Eukaryota,Metazoa,Porifera,Calcarea,Leucosolenida,dropped,dropped,dropped,Zotu747,10,11,3,8,15,5,3,0,2,0,0,8,7,7,3,11,13,14,3,3,8,1,4,6,1
+Eukaryota,Metazoa,Annelida,Polychaeta,Phyllodocida,Polynoidae,dropped,dropped,Zotu748,10,3,6,2,17,10,2,5,3,1,2,3,3,4,2,12,8,3,14,16,5,2,6,3,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,Petrosiidae,dropped,dropped,Zotu758,10,9,5,4,8,9,0,8,10,8,6,1,1,0,8,15,11,12,6,19,1,3,2,2,2
+Eukaryota,NA,NA,Polycystinea,Spumellaria,dropped,dropped,dropped,Zotu771,4,4,6,8,1,8,2,2,2,15,3,2,5,5,7,11,19,12,6,9,10,2,2,1,0
+Eukaryota,Viridiplantae,Prasinodermophyta,Prasinodermophyceae,Prasinodermales,Prasinodermaceae,Prasinoderma,Prasinoderma coloniale,Zotu779,2,10,11,6,5,3,5,0,0,0,0,7,1,2,3,14,13,19,7,6,3,2,6,3,3
+Eukaryota,Metazoa,Cnidaria,Hydrozoa,Leptothecata,Symplectoscyphidae,Bicaularia,Bicaularia tongensis,Zotu782,1,6,4,6,3,6,4,4,3,8,7,4,3,2,9,6,11,10,1,5,3,2,4,1,1
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,Petrosiidae,dropped,dropped,Zotu783,10,6,6,4,9,12,6,6,5,12,8,6,4,2,15,13,12,8,8,19,4,3,1,2,0
+Eukaryota,NA,NA,Polycystinea,Collodaria,Collozoidae,Cladococcus,Cladococcus sp. A MMS-2020,Zotu785,4,0,0,16,0,0,19,0,0,0,21,0,0,5,0,0,0,29,0,0,18,8,0,0,4
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu786,10,2,2,2,6,4,8,10,12,11,12,3,2,4,3,1,1,1,9,8,11,18,2,4,3
+Eukaryota,Metazoa,Porifera,Homoscleromorpha,Homosclerophorida,Plakinidae,Plakortis,Plakortis sp. 2 JV-2014,Zotu788,1,5,10,3,4,1,5,5,7,9,10,6,2,4,6,13,10,12,4,15,3,7,2,6,2
+Eukaryota,NA,NA,Polycystinea,Collodaria,Collozoidae,Cladococcus,Cladococcus sp. A MMS-2020,Zotu797,4,0,0,10,0,0,22,0,0,0,17,0,0,16,0,0,0,13,0,0,14,19,0,0,12
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,dropped,dropped,dropped,Zotu798,5,8,7,2,3,1,7,5,7,4,8,0,5,9,3,3,3,11,2,9,0,4,4,8,3
+Eukaryota,NA,Haptophyta,NA,Phaeocystales,Phaeocystaceae,Phaeocystis,Phaeocystis antarctica,Zotu799,1,6,4,10,14,9,5,0,0,0,0,0,1,0,0,2,2,12,23,25,9,0,2,0,2
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,Caryophylliidae,Dactylotrochus,Dactylotrochus cervicornis,Zotu812,1,7,2,5,7,13,6,2,1,3,3,5,5,6,4,12,10,8,17,11,8,0,2,8,4
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia abrensis,Zotu813,5,1,0,1,10,9,1,19,15,7,0,11,0,0,5,0,0,0,20,15,6,3,7,5,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Oceanospirillales,Oceanospirillaceae,Amphritea,dropped,Zotu815,5,7,6,5,8,6,8,5,2,2,8,4,3,5,3,5,8,5,12,21,3,9,2,4,4
+Eukaryota,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Mantoniella,Mantoniella squamata,Zotu823,1,17,8,22,10,7,15,3,0,0,0,2,3,4,1,13,10,6,3,9,7,3,3,1,1
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,Prochlorococcus marinus str. MIT 9515,Zotu828,10,5,0,5,1,6,4,2,4,3,3,2,14,2,3,2,3,2,2,5,1,2,2,4,3
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,Acarnidae,Zyzzya,Zyzzya fuliginosa,Zotu830,10,16,2,12,2,6,7,6,0,1,1,0,0,2,11,14,5,9,9,0,1,3,0,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,Chalinidae,dropped,dropped,Zotu840,2,1,1,11,3,7,7,3,0,1,2,6,4,11,0,2,6,13,9,26,7,1,0,4,4
+Eukaryota,Metazoa,Porifera,Calcarea,Clathrinida,Clathrinidae,Janusya,Janusya adusta,Zotu841,1,7,6,3,8,7,3,1,2,0,2,5,7,3,2,10,7,9,11,11,3,2,2,8,10
+Eukaryota,NA,NA,Polycystinea,Collodaria,Collozoidae,Cladococcus,Cladococcus sp. A MMS-2020,Zotu852,4,0,0,13,0,0,12,0,0,0,19,0,0,12,0,0,0,26,3,0,6,10,0,0,9
+Eukaryota,NA,Rhodophyta,Florideophyceae,Corallinales,Porolithaceae,dropped,dropped,Zotu861,10,2,3,3,1,6,3,2,0,7,0,2,11,4,11,0,16,4,0,4,4,0,2,11,1
+Eukaryota,NA,NA,Dinophyceae,Torodiniales,Torodiniaceae,Torodinium,Torodinium teredo,Zotu862,4,11,22,24,1,3,2,0,0,0,0,4,3,2,1,13,7,5,0,1,0,0,3,5,3
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Synechococcaceae,Synechococcus,Synechococcus sp. MIT S1220,Zotu868,8,8,9,9,3,7,6,0,0,0,0,2,3,5,0,4,13,11,1,5,0,0,3,7,2
+Bacteria,NA,NA,NA,NA,NA,NA,bacterium SCSIO 12696,Zotu879,2,5,7,2,4,6,17,2,5,0,0,1,1,7,1,1,7,8,9,17,11,3,0,5,0
+Bacteria,NA,NA,NA,NA,NA,NA,bacterium SCSIO 12696,Zotu881,2,0,2,5,8,4,5,1,0,1,1,4,3,1,1,8,1,15,6,3,3,3,0,0,3
+Eukaryota,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,dropped,dropped,dropped,Zotu886,2,55,54,51,135,153,173,17,20,25,16,33,69,62,31,62,78,87,174,212,191,17,31,33,24
+Eukaryota,NA,NA,Pelagophyceae,Pelagomonadales,Pelagomonadaceae,dropped,dropped,Zotu889,9,26,16,18,89,39,45,52,41,35,46,16,12,13,31,65,28,31,86,53,43,41,15,12,12
+Eukaryota,Metazoa,Porifera,Calcarea,Clathrinida,Clathrinidae,Janusya,Janusya adusta,Zotu899,1,2,2,1,4,22,7,3,2,1,2,1,10,6,0,2,2,4,9,21,2,0,3,6,2
+Eukaryota,Metazoa,Porifera,Calcarea,dropped,dropped,dropped,dropped,Zotu903,10,10,4,3,15,20,5,0,1,0,0,8,10,7,4,1,6,15,17,9,10,0,3,6,4
+Eukaryota,NA,Rhodophyta,Florideophyceae,Corallinales,Porolithaceae,Porolithon,Porolithon sp.,Zotu904,4,9,3,0,4,2,2,5,4,1,2,6,1,4,1,10,0,1,6,7,5,0,7,0,0
+Eukaryota,Metazoa,Annelida,Polychaeta,Phyllodocida,Polynoidae,Pollentia,Pollentia perezi,Zotu909,10,0,0,37,0,0,14,0,0,0,8,0,0,6,0,2,0,25,0,0,23,1,0,0,0
+Eukaryota,NA,Bacillariophyta,Fragilariophyceae,Fragilariales,Fragilariaceae,dropped,dropped,Zotu912,10,1,0,0,17,3,4,2,0,0,1,0,0,0,0,5,2,3,18,16,9,0,0,1,0
+Eukaryota,Metazoa,Porifera,Demospongiae,dropped,dropped,dropped,dropped,Zotu921,10,7,0,3,12,5,21,2,0,0,1,1,0,4,1,7,1,8,14,9,18,3,3,4,2
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,Petrosiidae,dropped,dropped,Zotu922,10,1,6,1,4,6,0,10,4,12,1,1,2,1,12,9,7,1,6,11,1,1,2,2,0
+Eukaryota,NA,NA,Chrysophyceae,Chromulinales,Chrysolepidomonadaceae,Chrysolepidomonas,Chrysolepidomonas dendrolepidota,Zotu923,1,2,1,4,9,10,9,1,0,0,0,3,3,0,0,7,1,4,16,20,9,0,0,0,0
+Eukaryota,Metazoa,Porifera,Calcarea,NA,NA,NA,Calcinea sp. 1 JV-2020,Zotu924,7,6,5,3,1,9,11,0,0,5,1,2,9,5,0,2,12,11,2,27,7,1,4,13,7
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Oceanospirillales,Endozoicomonadaceae,Endozoicomonas,Endozoicomonas sp. 4G,Zotu927,2,0,6,5,14,9,10,2,1,0,3,5,2,2,2,4,3,0,8,21,4,2,1,2,1
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,dropped,dropped,dropped,Zotu932,3,5,4,5,3,6,1,3,5,5,1,3,4,0,4,7,6,3,5,13,2,6,0,1,0
+Eukaryota,NA,NA,Polycystinea,Spumellaria,dropped,dropped,dropped,Zotu933,4,6,7,5,7,2,2,3,7,4,2,3,3,1,9,6,6,5,12,7,1,6,3,2,1
+Eukaryota,Metazoa,Cnidaria,Scyphozoa,Coronatae,dropped,dropped,dropped,Zotu934,3,4,2,5,3,4,2,4,2,3,4,5,3,5,6,0,4,13,2,10,3,12,1,2,11
+Eukaryota,NA,NA,Cryptophyceae,Cyathomonadacea,NA,Hemiarma,Hemiarma marina,Zotu935,2,5,3,5,5,4,2,2,4,1,2,2,6,3,0,13,4,6,3,15,1,1,5,3,0
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,dropped,dropped,dropped,Zotu937,10,0,11,0,0,14,0,0,0,9,0,0,7,0,17,1,19,0,0,12,0,0,0,12,0
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,dropped,dropped,Zotu940,10,0,0,0,0,5,2,2,1,13,7,3,5,0,4,0,1,0,2,9,11,15,1,1,5
+Eukaryota,Metazoa,Cnidaria,Hydrozoa,Leptothecata,Haleciidae,Nemalecium,Nemalecium lighti,Zotu945,1,7,7,0,2,4,1,4,7,4,4,4,5,2,9,9,7,3,5,7,1,1,3,7,0
+Eukaryota,Metazoa,Porifera,Calcarea,Leucosolenida,dropped,dropped,dropped,Zotu948,10,5,8,1,7,8,1,1,1,0,0,12,11,0,0,15,7,0,7,11,0,0,6,14,5
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,dropped,dropped,dropped,Zotu953,3,1,1,0,9,5,8,3,5,7,5,3,1,0,5,1,0,0,18,9,5,1,1,0,2
+Eukaryota,Metazoa,Cnidaria,Hydrozoa,Siphonophorae,Diphyidae,Lensia,Lensia conoidea,Zotu963,3,5,2,2,5,9,3,2,4,0,1,13,3,1,1,3,5,7,11,17,2,0,4,4,2
+Eukaryota,Metazoa,Porifera,Demospongiae,Tetractinellida,dropped,dropped,dropped,Zotu969,10,3,5,5,5,5,2,10,9,1,10,1,1,4,3,7,6,4,4,7,5,10,0,3,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Tetractinellida,Geodiidae,dropped,dropped,Zotu972,10,2,3,1,8,1,4,9,8,7,5,7,8,3,5,0,1,4,3,0,4,4,1,4,1
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,dropped,dropped,dropped,Zotu974,10,0,7,6,0,7,8,0,0,3,8,0,2,1,12,0,5,7,0,9,9,3,0,4,4
+Eukaryota,NA,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,Thalassiosira sp.,Zotu975,10,0,0,16,0,1,15,0,0,0,5,2,0,19,0,0,0,19,0,1,20,7,0,0,5
+Eukaryota,Metazoa,Porifera,Calcarea,dropped,dropped,dropped,dropped,Zotu976,9,0,0,18,0,0,13,0,0,0,6,0,0,14,0,0,0,26,0,0,6,5,0,0,9
+Eukaryota,NA,Bacillariophyta,Fragilariophyceae,Fragilariales,Fragilariaceae,dropped,dropped,Zotu981,10,4,2,1,20,7,8,0,0,0,0,1,0,1,2,5,1,0,12,12,10,0,1,0,1
+Eukaryota,NA,NA,Polycystinea,Spumellaria,dropped,dropped,dropped,Zotu983,4,3,1,2,8,5,1,1,0,3,3,2,3,0,10,5,4,4,2,7,5,0,0,2,1
+Eukaryota,Metazoa,Porifera,Demospongiae,Dictyoceratida,dropped,dropped,dropped,Zotu985,10,3,9,3,3,9,3,1,1,3,3,6,1,2,15,5,6,10,1,15,2,8,0,6,1
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia abrensis,Zotu987,5,1,2,3,0,14,2,5,1,12,8,6,8,1,11,1,4,0,5,20,4,3,0,6,3
+Eukaryota,NA,NA,Polycystinea,Spumellaria,dropped,dropped,dropped,Zotu988,4,1,8,6,2,10,6,1,2,10,10,4,7,5,5,1,4,5,1,27,3,5,0,6,5
+Eukaryota,Viridiplantae,Prasinodermophyta,Prasinodermophyceae,Prasinodermales,Prasinodermaceae,Prasinoderma,Prasinoderma singulare,Zotu998,1,5,5,7,2,6,2,0,0,3,1,0,4,6,0,2,6,6,1,7,2,0,4,2,3
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Oceanospirillales,Endozoicomonadaceae,Endozoicomonas,Endozoicomonas sp. GU-1,Zotu999,5,3,0,0,12,9,3,1,0,0,0,4,1,0,2,4,4,3,10,15,2,1,6,2,2
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Synechococcaceae,Synechococcus,Synechococcus sp. MIT S9503,Zotu1003,10,7,3,7,5,5,3,0,0,0,0,3,8,1,0,8,5,6,2,7,0,1,2,4,1
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu1006,10,6,0,6,11,14,21,2,10,3,10,7,12,17,5,4,4,8,18,17,27,6,7,11,13
+Eukaryota,NA,Bacillariophyta,Coscinodiscophyceae,Chaetocerotales,Chaetocerotaceae,Chaetoceros,dropped,Zotu1014,2,5,0,4,10,2,12,0,0,0,1,1,0,3,0,3,0,8,5,6,9,0,1,0,2
+Eukaryota,NA,Bacillariophyta,Coscinodiscophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,Rhizosolenia bergonii,Zotu1015,5,12,0,6,7,0,3,0,0,0,0,10,0,3,0,22,0,7,10,0,2,0,4,0,1
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,Coelosphaeridae,Lissodendoryx,dropped,Zotu1020,7,4,4,0,10,12,1,3,10,5,7,2,2,8,4,7,5,9,4,6,2,3,4,1,7
+Bacteria,NA,NA,NA,NA,NA,NA,bacterium SCSIO 12696,Zotu1025,2,3,0,2,7,3,6,1,2,3,3,5,0,2,1,2,3,3,9,9,3,2,2,1,0
+Eukaryota,NA,Oomycota,NA,Peronosporales,Pontismataceae,Sirolpidium,Sirolpidium heterosiphoniae,Zotu1033,1,10,3,2,0,4,2,4,2,4,2,4,3,4,7,1,6,1,2,5,2,0,6,3,0
+Eukaryota,NA,NA,NA,NA,NA,NA,Stramenopiles sp. MAST-3C-sp1,Zotu1034,1,2,2,5,4,4,2,9,12,3,4,4,1,0,6,7,9,9,6,3,4,6,3,4,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Agelasida,Agelasidae,Agelas,dropped,Zotu1035,9,0,8,0,0,12,1,0,0,10,1,0,10,3,3,0,3,2,0,19,0,0,0,8,0
+Eukaryota,Metazoa,Annelida,Polychaeta,Phyllodocida,Hesionidae,dropped,dropped,Zotu1045,4,7,1,1,12,0,1,4,1,3,1,5,0,3,1,5,1,4,5,5,0,2,5,2,2
+Eukaryota,Metazoa,Mollusca,Bivalvia,Pectinida,Plicatulidae,Plicatula,dropped,Zotu1048,4,7,0,4,11,0,5,4,0,0,2,1,0,4,0,2,0,8,11,1,9,1,3,0,5
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,Acroporidae,Montipora,Montipora foliosa,Zotu1052,10,4,0,0,5,0,0,9,8,0,0,6,0,0,0,8,0,0,4,0,0,0,3,0,0
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu1055,10,3,2,5,3,1,3,2,1,4,0,1,6,5,2,1,1,4,3,4,8,6,2,7,2
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Synechococcaceae,Synechococcus,Synechococcus sp. MIT S9503,Zotu1056,10,4,10,6,2,0,3,1,1,0,1,4,7,3,1,4,2,6,2,1,1,1,3,2,1
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Oceanospirillales,Endozoicomonadaceae,Endozoicomonas,Endozoicomonas sp.,Zotu1070,4,1,4,1,3,3,7,0,0,1,1,1,2,0,0,4,3,2,9,5,5,0,0,3,2
+Eukaryota,Metazoa,Cnidaria,Hydrozoa,Limnomedusae,Geryoniidae,Geryonia,Geryonia proboscidalis,Zotu1074,2,12,4,1,3,2,0,1,2,1,0,7,0,2,1,13,8,1,11,10,0,0,10,4,0
+Eukaryota,Metazoa,Mollusca,Gastropoda,Lepetellida,Fissurellidae,Diodora,dropped,Zotu1077,10,5,5,0,1,4,0,2,3,7,7,0,7,1,12,8,4,3,0,3,1,3,0,1,1
+Eukaryota,Metazoa,Cnidaria,Hydrozoa,Leptothecata,Plumulariidae,Plumularia,dropped,Zotu1079,4,1,6,5,2,6,1,2,2,0,0,0,2,6,2,0,2,13,0,4,1,1,1,1,1
+Eukaryota,Metazoa,Annelida,Polychaeta,Phyllodocida,Phyllodocidae,Phyllodoce,dropped,Zotu1087,10,3,0,1,8,3,4,1,0,1,2,0,2,4,1,4,3,2,11,6,1,1,5,1,2
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Alteromonadales,Alteromonadaceae,Alteromonas,dropped,Zotu1095,3,7,1,1,24,10,9,0,1,0,0,4,2,0,0,2,0,3,16,4,0,0,0,0,3
+Eukaryota,Metazoa,Porifera,Demospongiae,Tetractinellida,Geodiidae,dropped,dropped,Zotu1096,10,2,4,2,2,6,0,2,9,6,2,0,0,4,7,2,1,0,1,10,0,3,0,1,3
+Eukaryota,NA,NA,Pelagophyceae,Pelagomonadales,Pelagomonadaceae,dropped,dropped,Zotu1101,9,2,10,12,3,36,13,7,4,8,7,1,4,5,7,3,11,6,15,38,11,13,0,3,5
+Bacteria,NA,NA,NA,NA,NA,NA,bacterium SCSIO 12696,Zotu1102,2,2,3,1,4,1,1,3,0,0,2,4,3,3,2,3,1,2,0,3,8,1,7,0,2
+Eukaryota,NA,NA,Pelagophyceae,Pelagomonadales,Pelagomonadaceae,Pelagomonas,Pelagomonas sp.,Zotu1104,1,1,0,7,0,2,56,0,0,0,0,0,0,0,0,2,0,6,3,1,35,0,0,0,2
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia sp.,Zotu1110,10,4,1,0,13,11,8,10,18,16,9,4,3,4,7,5,6,1,13,4,16,12,7,2,3
+Bacteria,NA,NA,NA,NA,NA,NA,bacterium SCSIO 12696,Zotu1119,2,1,0,3,4,0,3,1,1,0,0,0,2,5,4,3,3,4,14,3,8,0,1,2,0
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Fragilariopsis,Fragilariopsis sp.,Zotu1132,1,0,1,0,2,3,1,1,0,4,6,1,1,3,8,1,2,0,4,6,7,8,0,2,1
+Eukaryota,NA,NA,dropped,dropped,dropped,dropped,dropped,Zotu1136,3,12,6,10,23,11,15,11,10,11,20,6,0,4,9,15,3,8,26,29,21,6,3,7,3
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,Petrosiidae,dropped,dropped,Zotu1137,10,7,13,3,5,9,4,8,3,6,7,6,2,2,7,2,7,3,4,8,3,2,0,3,0
+Eukaryota,Metazoa,Porifera,Calcarea,Leucosolenida,Leucosoleniidae,Leucosolenia,Leucosolenia sp. n. NCI307,Zotu1140,10,4,2,0,8,3,0,4,0,0,0,2,0,0,1,4,3,0,5,4,2,1,2,5,3
+Eukaryota,Metazoa,Mollusca,Gastropoda,Neogastropoda,dropped,dropped,dropped,Zotu1141,10,7,2,1,10,2,2,9,7,1,2,1,0,2,1,11,0,1,7,2,0,1,1,0,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Cellvibrionales,Cellvibrionaceae,Simiduia,Simiduia litorea,Zotu1142,5,3,2,4,2,4,0,2,5,0,2,1,0,1,1,2,6,3,6,10,2,0,3,1,3
+Eukaryota,Metazoa,Porifera,Demospongiae,NA,NA,NA,Keratosa sp. 1 JV-2020,Zotu1147,1,0,2,0,1,10,0,0,1,9,0,1,5,0,7,0,12,0,0,12,0,0,0,4,0
+Eukaryota,Metazoa,Porifera,Calcarea,Clathrinida,Clathrinidae,NA,Clathrinidae sp. 4 JV-2020,Zotu1150,2,4,1,1,6,1,2,0,2,0,6,3,3,15,1,0,0,8,5,1,3,15,0,2,7
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia abrensis,Zotu1155,5,0,0,0,2,7,1,2,0,7,7,2,4,1,16,1,2,0,4,6,4,0,1,8,1
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,dropped,dropped,dropped,Zotu1165,3,1,10,4,1,10,3,2,0,10,1,0,6,2,9,1,13,2,2,8,4,4,0,1,0
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,dropped,dropped,Zotu1166,10,0,0,0,4,0,0,12,15,2,0,6,0,0,10,0,0,0,16,8,0,2,5,1,0
+Eukaryota,Metazoa,Cnidaria,Hydrozoa,Siphonophorae,Diphyidae,Lensia,Lensia conoidea,Zotu1168,2,0,3,1,5,11,2,1,0,0,2,1,11,1,4,0,7,0,2,27,0,1,0,5,0
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia americana,Zotu1169,10,7,5,1,8,2,4,17,10,5,9,7,1,4,11,11,5,14,8,16,6,9,4,2,1
+Bacteria,NA,NA,NA,NA,NA,NA,bacterium SCSIO 12696,Zotu1170,2,0,1,1,5,3,3,0,2,0,2,1,4,1,0,1,3,2,8,4,1,1,1,1,0
+Eukaryota,Metazoa,Porifera,Demospongiae,NA,NA,NA,Heteroscleromorpha sp. 3 JV-2020,Zotu1174,2,7,4,1,4,1,0,4,7,2,2,1,1,1,13,9,1,6,3,6,2,2,4,3,0
+Eukaryota,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,dropped,dropped,dropped,Zotu1175,2,17,15,10,38,59,44,2,0,6,12,6,19,15,5,11,16,23,58,78,40,7,4,15,7
+Eukaryota,NA,Haptophyta,NA,NA,NA,NA,Haptophyceae sp. EE-2014,Zotu1180,1,6,5,4,1,3,0,5,1,3,2,2,1,1,1,5,4,3,5,2,0,1,6,2,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,Microcionidae,dropped,dropped,Zotu1181,10,1,1,0,2,3,0,3,5,5,2,0,1,1,12,7,5,0,2,7,0,0,2,2,0
+Eukaryota,NA,NA,dropped,dropped,dropped,dropped,dropped,Zotu1190,3,10,2,5,55,47,27,11,14,15,7,9,7,3,15,9,9,10,42,57,33,5,4,5,5
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,Microcionidae,dropped,dropped,Zotu1191,9,1,6,8,4,8,2,8,6,5,2,1,0,1,7,6,7,6,5,7,3,1,0,1,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Moraxellales,Moraxellaceae,Acinetobacter,dropped,Zotu1193,10,4,4,3,10,4,2,1,2,2,2,1,3,4,1,5,2,2,5,6,2,3,3,0,0
+Eukaryota,NA,NA,Cryptophyceae,dropped,dropped,dropped,dropped,Zotu1194,7,3,3,0,8,5,2,0,0,2,0,3,1,2,0,0,3,3,6,6,1,0,0,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,dropped,dropped,dropped,Zotu1203,3,1,0,3,9,2,9,7,6,5,7,5,1,3,9,5,1,3,4,12,7,1,3,0,1
+Eukaryota,NA,NA,Chrysophyceae,Chromulinales,Chrysolepidomonadaceae,Chrysolepidomonas,Chrysolepidomonas dendrolepidota,Zotu1208,1,3,0,0,8,5,7,0,0,0,0,2,0,1,0,0,0,0,10,19,9,0,0,0,0
+Eukaryota,Metazoa,Mollusca,Gastropoda,Littorinimorpha,Vermetidae,dropped,dropped,Zotu1211,10,1,4,2,1,1,3,3,1,5,1,3,2,6,5,1,3,1,0,2,2,5,2,4,1
+Eukaryota,Metazoa,Cnidaria,Hydrozoa,Leptothecata,Sertulariidae,Amphisbetia,Amphisbetia distans,Zotu1219,1,2,3,0,3,0,1,6,1,2,1,2,4,0,6,2,5,1,3,6,3,0,0,3,1
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Naviculales,Naviculaceae,Seminavis,Seminavis robusta,Zotu1224,10,4,0,1,16,4,6,0,0,0,0,6,1,0,0,8,0,2,24,13,4,0,0,0,1
+Eukaryota,Metazoa,Nemertea,Pilidiophora,Heteronemertea,dropped,dropped,dropped,Zotu1227,10,5,2,0,7,0,0,0,1,0,0,8,0,0,0,12,0,0,8,1,0,0,3,0,0
+Eukaryota,Metazoa,Mollusca,Polyplacophora,Chitonida,Cryptoplacidae,Cryptoplax,Cryptoplax japonica,Zotu1240,2,0,2,1,5,7,1,1,0,0,0,0,0,1,0,1,4,5,4,13,2,0,1,1,2
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,dropped,dropped,dropped,Zotu1241,10,0,20,1,2,1,0,0,1,12,0,0,5,0,2,6,10,1,0,6,0,0,0,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,Chalinidae,Cladocroce,dropped,Zotu1242,3,1,5,2,0,7,10,0,0,2,0,2,7,1,3,0,3,1,1,16,1,0,0,5,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Dictyoceratida,dropped,dropped,dropped,Zotu1247,10,0,6,1,14,15,7,19,13,13,17,5,4,10,14,10,3,3,31,24,11,10,8,3,3
+Eukaryota,Metazoa,Porifera,Calcarea,Clathrinida,Clathrinidae,dropped,dropped,Zotu1258,8,1,1,0,9,9,1,2,0,0,0,1,5,0,0,4,6,0,11,7,0,0,0,4,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,dropped,dropped,dropped,Zotu1261,10,18,8,1,2,1,1,0,0,1,2,0,0,0,1,8,8,5,1,1,0,1,0,1,0
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,Acroporidae,Montipora,Montipora foliosa,Zotu1263,10,7,1,0,10,0,1,12,4,1,0,3,0,0,0,19,0,0,7,0,0,0,1,0,0
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,dropped,dropped,dropped,Zotu1267,10,1,0,2,3,5,3,0,0,1,2,3,0,2,9,5,1,6,4,6,1,7,0,1,0
+Eukaryota,NA,NA,Polycystinea,Spumellaria,dropped,dropped,dropped,Zotu1280,4,0,2,4,0,2,1,1,0,8,8,2,3,3,8,0,4,5,2,4,2,5,0,4,2
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu1283,10,11,0,3,1,8,3,2,3,6,7,5,7,9,6,2,2,4,8,9,5,3,1,8,4
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,dropped,dropped,dropped,Zotu1285,9,6,7,2,3,1,3,1,4,8,1,0,1,1,1,6,13,6,3,4,0,9,0,5,2
+Eukaryota,NA,NA,Pelagophyceae,Pelagomonadales,Pelagomonadaceae,dropped,dropped,Zotu1287,9,9,1,9,10,3,2,2,3,2,1,2,0,2,3,4,3,14,9,8,6,0,0,1,0
+Eukaryota,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Mantoniella,Mantoniella squamata,Zotu1289,1,12,3,5,15,8,10,18,14,18,14,6,4,4,9,11,1,7,24,15,9,6,7,7,6
+Eukaryota,Metazoa,Porifera,Demospongiae,Agelasida,Agelasidae,Agelas,dropped,Zotu1291,9,4,0,0,4,0,4,2,5,5,1,2,1,3,1,2,0,1,7,4,2,2,4,7,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,Mycalidae,Mycale,dropped,Zotu1292,8,7,2,7,5,8,6,2,6,3,4,1,0,1,0,6,8,3,5,7,5,5,0,2,0
+Eukaryota,NA,NA,Pelagophyceae,Pelagomonadales,Pelagomonadaceae,dropped,dropped,Zotu1294,9,8,8,8,1,0,3,1,0,3,2,2,0,0,1,11,7,11,4,5,3,1,0,3,1
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,dropped,dropped,dropped,Zotu1297,10,2,7,1,0,1,0,0,1,2,1,3,2,1,3,4,9,7,1,2,2,1,0,6,2
+Eukaryota,Metazoa,Annelida,Sipuncula,Phascolosomatiformes,Phascolosomatidae,Apionsoma,Apionsoma misakianum,Zotu1304,1,0,2,1,0,15,4,1,1,0,0,0,2,1,0,0,5,3,3,10,3,0,0,1,1
+Eukaryota,Metazoa,Cnidaria,Hydrozoa,Leptothecata,Plumulariidae,Plumularia,dropped,Zotu1308,3,1,2,3,3,2,0,3,2,1,0,2,1,0,2,2,2,0,0,4,0,0,1,7,0
+Eukaryota,Metazoa,Porifera,Demospongiae,dropped,dropped,dropped,dropped,Zotu1313,10,1,2,7,3,1,4,1,2,0,5,0,1,5,1,3,0,2,6,0,6,12,1,0,3
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Naviculales,Naviculaceae,Navicula,Navicula sp.,Zotu1318,1,0,1,0,16,20,13,0,0,0,0,1,2,3,0,0,0,1,13,40,27,1,0,1,1
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,Prochlorococcus marinus str. MIT 9515,Zotu1320,10,0,5,3,5,8,5,2,5,2,0,8,10,12,1,3,3,8,11,6,4,5,5,9,7
+Eukaryota,Metazoa,Porifera,Demospongiae,Tetractinellida,dropped,dropped,dropped,Zotu1321,10,2,0,3,5,5,12,3,0,3,1,3,5,7,2,1,2,6,3,16,4,2,4,6,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,NA,NA,NA,Gammaproteobacteria bacterium,Zotu1323,2,0,0,4,0,2,0,0,0,0,0,3,0,0,0,3,0,0,0,0,0,0,0,0,0
+Eukaryota,NA,NA,Dinophyceae,Gymnodiniales,Kareniaceae,Karlodinium,dropped,Zotu1329,10,9,28,8,4,5,10,0,0,0,0,1,1,1,0,5,7,16,0,2,0,0,1,4,0
+Eukaryota,Metazoa,Hemichordata,Enteropneusta,NA,Ptychoderidae,Ptychodera,Ptychodera flava,Zotu1330,3,6,0,3,2,0,0,2,2,0,2,4,0,2,0,8,0,2,10,0,3,3,4,0,0
+Eukaryota,Metazoa,Porifera,Calcarea,dropped,dropped,dropped,dropped,Zotu1335,10,2,2,0,11,10,2,4,0,1,1,2,2,6,2,4,2,0,6,3,8,0,3,1,0
+Eukaryota,Metazoa,Porifera,Calcarea,Clathrinida,dropped,dropped,dropped,Zotu1336,10,6,2,5,4,6,3,2,0,0,0,1,3,0,0,1,2,2,6,4,3,0,1,2,2
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Oceanospirillales,Oceanospirillaceae,Aliamphritea,Aliamphritea hakodatensis,Zotu1337,2,1,1,2,3,2,5,2,2,1,3,2,0,3,1,1,1,0,2,4,1,3,3,1,0
+Eukaryota,Metazoa,Annelida,Polychaeta,Phyllodocida,Chrysopetalidae,Chrysopetalum,Chrysopetalum debile,Zotu1340,1,0,5,0,2,10,2,0,0,0,0,3,0,0,0,1,9,0,1,22,1,0,2,3,0
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,Prochlorococcus marinus str. MIT 9215,Zotu1345,10,8,3,6,5,9,9,12,6,2,11,12,8,14,0,8,9,9,13,9,10,8,3,10,7
+Eukaryota,Metazoa,Mollusca,Bivalvia,Arcoida,Arcidae,dropped,dropped,Zotu1348,8,1,1,0,2,0,9,1,2,0,2,1,0,6,0,0,2,11,3,0,8,1,1,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,dropped,dropped,dropped,dropped,Zotu1350,10,0,3,2,1,10,14,0,0,1,0,0,1,2,0,5,1,1,4,14,10,0,0,2,1
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Naviculales,Naviculaceae,Seminavis,Seminavis robusta,Zotu1356,10,0,3,0,4,13,6,0,0,0,0,0,0,1,0,1,1,0,1,14,3,1,0,1,1
+Eukaryota,NA,Bacillariophyta,Coscinodiscophyceae,Chaetocerotales,Chaetocerotaceae,Chaetoceros,Chaetoceros seychellarum,Zotu1369,3,8,0,0,6,0,0,2,0,0,0,8,0,0,0,2,0,0,7,0,0,0,5,0,0
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Actiniaria,Boloceroididae,Bunodeopsis,Bunodeopsis globulifera,Zotu1371,1,4,0,3,8,8,4,0,0,0,2,7,5,3,0,3,4,5,14,22,4,3,4,4,2
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,dropped,dropped,dropped,Zotu1374,6,2,2,3,6,1,0,3,4,1,2,1,0,0,3,0,4,6,4,7,2,2,0,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,Acarnidae,Zyzzya,Zyzzya fuliginosa,Zotu1376,6,6,11,4,1,0,4,2,3,1,2,0,0,0,5,9,6,12,6,1,1,5,0,0,0
+Eukaryota,NA,NA,dropped,dropped,dropped,dropped,dropped,Zotu1378,2,7,1,0,5,4,0,2,3,2,1,0,0,0,1,1,1,3,0,0,1,0,3,2,2
+Eukaryota,NA,NA,Chrysophyceae,Chromulinales,Chrysolepidomonadaceae,Chrysolepidomonas,Chrysolepidomonas dendrolepidota,Zotu1382,1,0,0,3,9,8,4,0,0,0,1,0,0,0,0,1,0,1,8,5,2,0,0,0,0
+Eukaryota,Metazoa,Mollusca,Gastropoda,Nudibranchia,dropped,dropped,dropped,Zotu1384,10,0,5,0,0,11,0,1,1,5,0,0,1,0,4,0,4,0,0,8,0,0,0,3,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,Chalinidae,Haliclona,dropped,Zotu1385,7,0,1,0,2,1,5,0,0,1,0,1,6,1,0,0,0,0,9,21,2,2,0,0,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Oceanospirillales,Endozoicomonadaceae,Endozoicomonas,Endozoicomonas sp.,Zotu1386,4,0,1,4,5,1,4,2,0,0,0,2,1,2,0,1,0,3,8,7,3,0,0,2,1
+Eukaryota,Metazoa,Chordata,Thaliacea,Salpida,Salpidae,Thalia,Thalia democratica,Zotu1388,1,0,3,2,3,3,2,0,0,3,0,0,6,2,3,2,7,6,3,7,2,0,1,5,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,dropped,dropped,dropped,Zotu1390,3,1,0,0,6,1,0,4,6,3,0,1,2,0,5,3,0,1,3,5,3,3,0,1,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Cellvibrionales,Porticoccaceae,NA,Porticoccaceae bacterium LTM1,Zotu1396,2,2,1,0,6,0,1,0,0,0,1,0,1,0,0,1,0,2,5,4,3,2,0,0,0
+Eukaryota,Metazoa,Porifera,Calcarea,dropped,dropped,dropped,dropped,Zotu1405,9,1,2,2,3,1,2,1,0,0,0,5,0,0,1,2,5,1,5,6,0,0,1,1,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,Chalinidae,dropped,dropped,Zotu1411,5,1,2,0,0,12,0,0,2,3,0,3,3,2,1,2,11,0,6,10,1,0,1,8,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Agelasida,Agelasidae,Agelas,dropped,Zotu1417,10,0,2,0,2,8,5,1,2,5,6,1,6,1,16,0,2,0,2,11,2,5,0,3,4
+Eukaryota,NA,NA,dropped,dropped,dropped,dropped,dropped,Zotu1433,3,0,3,4,5,9,6,0,1,0,0,2,0,0,0,2,1,2,12,12,6,0,0,0,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,NA,NA,NA,Gammaproteobacteria bacterium,Zotu1451,4,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,2,8,0,0,1,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Tetractinellida,Theonellidae,Theonella,Theonella sp. HBOI 1-IX-93-1-015,Zotu1453,10,6,3,6,23,10,19,13,18,17,18,4,8,11,23,6,6,6,22,18,29,19,4,6,3
+Eukaryota,Metazoa,Cnidaria,Hydrozoa,Anthoathecata,Sphaerocorynidae,Sphaerocoryne,Sphaerocoryne agassizii,Zotu1460,1,0,12,1,0,3,0,0,0,4,4,0,5,2,4,1,6,6,0,3,2,5,0,2,0
+Eukaryota,NA,NA,Pelagophyceae,Pelagomonadales,Pelagomonadaceae,dropped,dropped,Zotu1461,9,106,65,84,205,151,143,79,74,65,74,68,57,50,54,129,87,141,207,314,193,60,45,57,37
+Eukaryota,Metazoa,Annelida,Polychaeta,NA,Opheliidae,Polyophthalmus,dropped,Zotu1463,2,0,1,0,0,13,0,0,0,1,1,0,4,0,3,0,6,0,0,15,0,0,0,0,0
+Eukaryota,NA,Haptophyta,NA,NA,NA,NA,Haptophyceae sp. EE-2014,Zotu1466,1,2,0,0,1,1,1,3,0,1,1,0,1,0,5,1,3,3,3,0,0,0,1,0,0
+Eukaryota,Metazoa,Mollusca,Gastropoda,Littorinimorpha,dropped,dropped,dropped,Zotu1468,8,0,1,0,2,8,0,0,1,0,0,1,5,0,4,0,1,0,0,16,0,0,0,2,0
+Eukaryota,Metazoa,Porifera,Calcarea,dropped,dropped,dropped,dropped,Zotu1500,10,3,1,4,0,9,3,0,3,0,0,2,7,1,2,2,2,5,0,9,0,0,1,3,1
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,Coelosphaeridae,Lissodendoryx,dropped,Zotu1501,6,0,2,0,2,1,3,4,5,2,6,0,1,0,5,1,1,3,8,3,0,4,0,2,0
+Eukaryota,Metazoa,Cnidaria,Hydrozoa,Leptothecata,Plumulariidae,Plumularia,Plumularia margaretta,Zotu1502,1,0,0,3,1,0,1,1,0,3,4,2,0,2,0,1,0,6,0,0,0,5,1,0,0
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,dropped,dropped,Zotu1505,10,1,0,0,3,1,0,10,7,3,0,3,1,0,3,0,1,0,5,4,0,0,2,2,0
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,dropped,dropped,dropped,Zotu1508,10,3,0,1,5,4,8,9,7,3,0,5,1,3,3,2,16,2,9,5,0,4,1,4,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Suberitida,dropped,dropped,dropped,Zotu1511,10,0,0,6,0,0,0,0,0,0,2,0,0,0,0,0,0,2,0,1,0,0,0,0,0
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,Nitzschia navis-varingica,Zotu1513,10,0,7,0,0,2,0,0,0,2,0,2,5,0,4,0,7,0,0,11,0,0,0,10,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Oceanospirillales,Endozoicomonadaceae,Endozoicomonas,Endozoicomonas sp. GU-1,Zotu1515,2,0,0,3,1,10,4,0,0,1,0,0,1,1,2,1,6,2,8,4,2,0,2,0,2
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,NA,NA,NA,Gammaproteobacteria bacterium,Zotu1517,4,0,0,5,0,3,0,0,0,0,0,1,4,6,0,1,1,2,0,2,0,0,0,0,0
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia sp.,Zotu1518,10,0,0,1,4,10,3,5,2,2,10,0,2,1,1,1,1,0,3,5,2,6,1,0,0
+Eukaryota,NA,NA,Polycystinea,Nassellaria,Trissocyclidae,Amphispyris,Amphispyris costata,Zotu1519,3,0,0,3,0,0,4,0,0,0,0,0,0,1,0,0,0,12,0,0,8,0,0,0,0
+Eukaryota,Metazoa,Annelida,Polychaeta,NA,Chaetopteridae,Chaetopterus,dropped,Zotu1520,10,1,0,1,5,2,3,0,0,0,6,0,0,7,0,4,0,5,1,2,5,1,2,0,3
+Eukaryota,NA,Rhodophyta,Florideophyceae,Hapalidiales,Hapalidiaceae,Lithothamnion,Lithothamnion sp.,Zotu1530,3,4,4,2,1,0,0,1,0,2,0,0,2,1,4,0,0,0,2,1,2,0,0,6,1
+Eukaryota,Metazoa,Porifera,Calcarea,Clathrinida,dropped,dropped,dropped,Zotu1536,5,6,5,5,2,4,8,1,0,6,2,9,2,4,0,7,0,5,9,1,2,2,3,3,2
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Naviculales,Naviculaceae,Navicula,Navicula sp.,Zotu1537,1,0,0,2,7,5,8,0,0,0,0,1,0,0,0,2,0,0,6,5,1,0,1,1,1
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,Prochlorococcus marinus str. MIT 9515,Zotu1542,10,1,3,5,1,2,1,1,2,2,0,3,6,2,3,5,4,2,1,0,3,1,1,3,4
+Eukaryota,Metazoa,Porifera,Demospongiae,Dictyoceratida,Dysideidae,Dysidea,dropped,Zotu1553,10,1,0,3,2,1,7,0,2,0,1,0,3,4,2,3,2,0,1,12,3,2,0,2,3
+Eukaryota,NA,NA,Polycystinea,Spumellaria,dropped,dropped,dropped,Zotu1558,6,1,0,0,0,0,0,3,3,2,1,0,3,1,2,0,2,0,2,0,1,0,0,2,3
+Bacteria,NA,NA,NA,NA,NA,NA,bacterium SCSIO 12696,Zotu1561,2,1,0,2,4,1,1,0,3,2,0,1,0,0,2,0,1,0,5,3,3,0,0,2,2
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Alteromonadales,Alteromonadaceae,Alteromonas,dropped,Zotu1567,10,7,0,2,8,0,5,0,1,0,0,1,0,0,0,0,0,0,2,0,5,0,0,0,4
+Eukaryota,NA,NA,Polycystinea,Spumellaria,dropped,dropped,dropped,Zotu1572,5,0,6,2,0,5,0,0,0,2,3,0,0,0,5,0,2,1,0,5,0,0,0,0,2
+Eukaryota,Metazoa,Mollusca,Gastropoda,Pleurobranchida,Pleurobranchidae,Pleurehdera,Pleurehdera stellata,Zotu1577,1,0,5,0,0,2,0,0,0,5,0,0,0,0,7,0,4,0,0,1,0,0,0,0,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Alteromonadales,Alteromonadaceae,Alteromonas,dropped,Zotu1579,10,8,10,0,10,6,0,0,1,0,1,3,1,0,0,6,3,1,6,7,0,0,1,0,0
+Eukaryota,Metazoa,Mollusca,Bivalvia,Gastrochaenida,Gastrochaenidae,Rocellaria,Rocellaria dubia,Zotu1586,1,5,0,0,10,0,0,2,4,0,0,5,0,0,0,4,0,0,7,0,0,0,4,0,0
+Eukaryota,NA,NA,Phaeophyceae,Ectocarpales,dropped,dropped,dropped,Zotu1590,10,0,0,0,1,0,0,4,3,1,1,1,1,1,3,2,1,1,8,4,0,1,2,0,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Aeromonadales,Aeromonadaceae,Aeromonas,dropped,Zotu1594,10,0,5,3,5,5,0,1,1,1,0,0,3,4,5,1,6,1,3,2,2,1,2,5,1
+Eukaryota,Metazoa,Mollusca,Bivalvia,dropped,dropped,dropped,dropped,Zotu1595,10,1,0,10,1,0,7,0,0,0,0,0,0,3,0,1,0,3,0,0,1,0,0,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Tetractinellida,Azoricidae,Leiodermatium,dropped,Zotu1600,10,2,7,7,3,6,0,0,4,5,2,0,0,0,3,4,3,3,3,2,4,4,3,2,2
+Eukaryota,Metazoa,Porifera,Demospongiae,Tetractinellida,dropped,dropped,dropped,Zotu1601,10,0,3,0,14,8,27,8,20,13,22,8,3,2,12,4,0,3,20,10,27,12,0,6,5
+Eukaryota,Metazoa,Mollusca,Bivalvia,Pterioida,Malleidae,Malleus,dropped,Zotu1604,10,1,0,4,0,0,4,0,0,1,5,0,0,2,1,0,0,3,0,2,1,5,0,0,7
+Eukaryota,Metazoa,Porifera,Demospongiae,dropped,dropped,dropped,dropped,Zotu1607,10,7,3,4,83,48,68,27,38,61,42,16,19,11,33,6,4,11,103,76,84,31,9,11,16
+Eukaryota,Metazoa,Porifera,Demospongiae,dropped,dropped,dropped,dropped,Zotu1610,10,5,2,3,25,26,24,16,14,11,13,1,3,5,19,6,7,10,26,48,23,11,5,12,7
+Eukaryota,Metazoa,Porifera,Demospongiae,Dictyoceratida,dropped,dropped,dropped,Zotu1616,10,2,3,0,0,1,0,0,0,3,0,0,2,0,1,0,3,0,0,10,0,0,0,7,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Dendroceratida,Darwinellidae,Chelonaplysilla,Chelonaplysilla delicata,Zotu1618,1,5,0,4,1,0,3,1,0,0,0,3,0,3,0,1,0,3,1,5,9,4,0,4,1
+Eukaryota,Viridiplantae,Chlorophyta,Chloropicophyceae,Chloropicales,Chloropicaceae,Chloropicon,dropped,Zotu1619,10,2,1,4,5,9,2,0,0,0,0,0,2,0,0,0,4,2,4,7,1,0,0,0,0
+Eukaryota,Metazoa,Bryozoa,Gymnolaemata,Cheilostomatida,Cribrilinidae,Puellina,Puellina vicariata,Zotu1622,1,9,3,3,1,1,2,0,0,0,1,1,3,0,0,6,5,8,2,1,2,0,0,0,0
+Eukaryota,NA,NA,Dinophyceae,Gonyaulacales,Cladopyxidaceae,Peridiniella,Peridiniella sp. NC-2011,Zotu1626,10,10,9,6,2,0,0,0,0,0,0,1,1,3,0,0,4,4,0,0,1,0,0,0,3
+Eukaryota,NA,NA,Dinophyceae,Suessiales,Suessiaceae,Pelagodinium,Pelagodinium bei,Zotu1629,1,4,2,2,1,3,1,1,2,0,0,0,0,0,0,0,1,2,3,7,2,0,0,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,dropped,dropped,dropped,Zotu1632,10,3,1,2,3,1,2,3,3,1,4,0,0,1,2,7,1,8,0,2,1,4,0,0,0
+Eukaryota,Metazoa,Annelida,Polychaeta,Phyllodocida,Glyceridae,Glycera,dropped,Zotu1636,10,0,4,0,0,6,0,0,0,0,0,0,1,0,7,0,5,0,0,13,0,0,0,3,0
+Eukaryota,Metazoa,Porifera,Calcarea,Clathrinida,Clathrinidae,NA,Clathrinidae sp. 8 JV-2020,Zotu1638,1,3,4,5,29,39,13,6,1,4,2,3,13,4,4,4,6,3,20,35,10,3,5,10,3
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,Coelosphaeridae,Lissodendoryx,dropped,Zotu1639,7,0,1,0,0,5,0,0,0,5,0,0,3,0,10,0,3,2,0,9,1,1,0,1,0
+Eukaryota,Metazoa,Annelida,Polychaeta,Phyllodocida,Glyceridae,dropped,dropped,Zotu1646,10,0,5,0,0,7,0,0,0,0,0,0,6,0,1,0,6,0,0,13,0,0,0,4,0
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu1647,10,3,0,0,4,0,4,7,8,0,3,9,0,0,0,0,0,2,2,0,6,0,5,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,dropped,dropped,dropped,Zotu1649,10,0,0,0,6,3,2,3,1,1,8,0,1,3,4,1,0,1,6,4,2,4,0,2,1
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia abrensis,Zotu1653,5,0,0,0,4,7,0,3,2,2,0,1,0,0,1,0,0,0,5,3,1,1,1,2,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Oceanospirillales,Endozoicomonadaceae,Endozoicomonas,dropped,Zotu1656,4,0,1,0,0,3,3,0,0,0,0,1,0,0,0,0,1,0,0,7,1,0,0,0,3
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Oceanospirillales,Endozoicomonadaceae,Endozoicomonas,Endozoicomonas sp.,Zotu1657,4,0,0,1,4,2,1,0,0,0,0,4,0,3,0,3,2,1,3,3,3,0,0,0,2
+Eukaryota,NA,NA,Polycystinea,Spumellaria,dropped,dropped,dropped,Zotu1658,6,0,0,1,1,0,3,1,0,0,0,1,1,0,3,1,0,4,1,0,2,8,0,0,3
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,dropped,dropped,dropped,Zotu1660,10,6,3,1,3,2,0,0,0,2,0,1,1,6,0,5,1,2,1,1,2,0,0,4,1
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,Dendrophylliidae,dropped,dropped,Zotu1662,10,2,2,0,3,6,5,1,0,3,1,2,2,4,4,3,9,2,1,4,1,0,1,3,4
+Eukaryota,NA,Bacillariophyta,Fragilariophyceae,Thalassionemales,Thalassionemataceae,Thalassiothrix,Thalassiothrix sp.,Zotu1669,2,7,7,7,29,31,29,19,25,38,28,5,12,11,44,6,16,11,30,70,48,27,9,15,14
+Eukaryota,NA,Bacillariophyta,Fragilariophyceae,Thalassionemales,Thalassionemataceae,Thalassiothrix,Thalassiothrix sp.,Zotu1670,2,0,2,2,2,7,4,0,0,0,0,0,0,0,2,1,4,1,3,0,7,0,0,2,0
+Eukaryota,NA,NA,Pelagophyceae,Pelagomonadales,Pelagomonadaceae,Pelagomonas,Pelagomonas sp.,Zotu1676,1,4,1,3,7,6,4,0,0,0,0,1,1,2,0,1,1,2,4,2,4,0,1,0,4
+Eukaryota,Metazoa,Mollusca,Bivalvia,Gastrochaenida,Gastrochaenidae,Rocellaria,Rocellaria dubia,Zotu1678,1,4,0,0,10,0,0,3,0,0,0,1,0,0,0,5,0,0,7,0,0,0,5,0,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Oceanospirillales,Endozoicomonadaceae,Endozoicomonas,Endozoicomonas sp. Mp262,Zotu1689,1,3,0,3,1,1,2,0,0,0,0,0,0,0,0,2,0,0,3,2,3,0,0,1,2
+Eukaryota,Metazoa,Porifera,Demospongiae,Suberitida,dropped,NA,dropped,Zotu1693,10,1,0,0,4,0,0,10,6,1,0,5,0,1,0,1,0,0,3,1,0,2,3,0,0
+Eukaryota,NA,NA,NA,NA,NA,NA,Stramenopiles sp. MAST-3C-sp2,Zotu1697,2,1,0,3,0,0,0,0,0,2,0,7,0,1,2,3,0,2,0,0,2,2,0,3,0
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Actiniaria,Boloceroididae,Bunodeopsis,Bunodeopsis globulifera,Zotu1707,1,1,0,1,3,5,2,1,1,0,0,3,1,1,0,1,1,2,1,3,0,0,0,3,0
+Eukaryota,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,dropped,dropped,dropped,Zotu1730,2,12,18,17,56,59,50,9,3,5,2,12,14,13,8,17,14,34,64,87,57,5,3,16,5
+Eukaryota,Metazoa,Porifera,Demospongiae,Tetractinellida,dropped,dropped,dropped,Zotu1738,10,3,0,2,2,3,6,1,2,5,6,3,2,3,3,0,1,1,10,0,8,5,7,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,dropped,dropped,dropped,Zotu1741,10,1,0,0,2,1,4,3,2,4,1,0,0,0,6,0,3,0,0,3,0,2,1,0,1
+Eukaryota,Metazoa,Porifera,Calcarea,Leucosolenida,dropped,dropped,dropped,Zotu1746,10,2,1,3,0,1,2,0,0,0,2,0,4,0,0,2,0,0,4,4,0,1,1,0,4
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Alteromonadales,Alteromonadaceae,Alteromonas,dropped,Zotu1748,3,9,0,0,14,1,2,0,0,0,0,3,0,0,0,5,0,0,2,0,0,0,0,0,0
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu1755,10,0,0,0,2,12,1,0,0,3,0,2,1,0,0,0,2,0,9,9,0,1,2,1,0
+Eukaryota,Metazoa,Cnidaria,Hydrozoa,Trachymedusae,Rhopalonematidae,dropped,dropped,Zotu1756,7,2,0,0,2,0,1,0,1,0,0,3,7,0,0,7,1,0,6,0,0,0,3,1,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Alteromonadales,Alteromonadaceae,Alteromonas,dropped,Zotu1758,3,3,0,0,1,6,0,0,0,0,0,0,0,2,0,3,0,0,4,3,0,0,0,0,0
+Eukaryota,Metazoa,Mollusca,Gastropoda,Littorinimorpha,Vermetidae,dropped,dropped,Zotu1776,10,0,0,0,0,2,0,0,0,6,1,0,4,0,6,1,5,0,0,2,0,2,0,3,0
+Eukaryota,Metazoa,Annelida,Polychaeta,Phyllodocida,Hesionidae,dropped,dropped,Zotu1779,10,0,0,0,0,7,0,0,0,1,0,0,2,1,1,0,4,1,0,13,0,0,0,0,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Oceanospirillales,Endozoicomonadaceae,Endozoicomonas,Endozoicomonas sp. 4G,Zotu1787,1,1,0,0,4,2,3,0,2,0,0,1,2,3,0,0,0,3,6,2,3,3,0,0,2
+Eukaryota,Metazoa,Porifera,Demospongiae,dropped,dropped,dropped,dropped,Zotu1790,10,0,3,0,1,6,0,4,0,0,0,2,3,0,1,1,0,0,5,3,0,0,0,1,1
+Eukaryota,Metazoa,Porifera,Demospongiae,Tetractinellida,dropped,dropped,dropped,Zotu1793,10,0,0,0,2,0,1,4,4,2,1,0,0,6,2,1,0,0,6,3,1,7,1,0,0
+Eukaryota,NA,NA,Polycystinea,Spumellaria,dropped,dropped,dropped,Zotu1824,5,6,0,0,1,2,0,4,0,3,0,0,1,0,1,3,0,0,7,1,0,0,0,0,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Marinobacteraceae,Marinobacter,Marinobacter sp. AN1,Zotu1826,1,3,0,0,9,3,0,0,1,0,0,0,0,0,0,2,0,0,4,3,0,0,0,0,0
+Bacteria,NA,NA,NA,NA,NA,NA,bacterium SCSIO 12696,Zotu1834,2,3,1,3,1,0,1,3,0,0,0,1,0,3,0,0,0,2,2,1,1,0,0,1,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Cellvibrionales,Halieaceae,Congregibacter,Congregibacter variabilis,Zotu1838,2,3,3,3,10,5,12,0,0,0,1,1,1,3,0,3,5,1,9,8,2,0,4,4,1
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Thiotrichales,Fastidiosibacteraceae,Cysteiniphilum,Cysteiniphilum sp. QT6929,Zotu1843,1,3,0,1,2,2,0,0,0,0,0,1,1,0,0,3,2,2,1,1,1,0,0,0,0
+Eukaryota,Metazoa,Cnidaria,Hydrozoa,Anthoathecata,Pennariidae,Pennaria,Pennaria disticha,Zotu1844,1,0,0,3,0,0,1,0,0,0,2,0,0,9,0,0,0,5,0,0,3,5,0,0,4
+Eukaryota,Metazoa,Mollusca,Gastropoda,Littorinimorpha,dropped,dropped,dropped,Zotu1851,3,0,1,0,0,8,0,0,0,10,0,0,2,0,15,0,5,0,0,1,0,0,0,5,0
+Eukaryota,NA,Bacillariophyta,Fragilariophyceae,Thalassionemales,Thalassionemataceae,Thalassiothrix,Thalassiothrix sp.,Zotu1852,2,1,1,0,4,3,3,0,0,0,2,0,0,0,1,0,0,1,3,5,1,2,0,0,1
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,NA,NA,Pseudomonadales bacterium,Zotu1856,1,0,2,10,9,2,1,0,0,0,0,0,0,1,0,2,0,2,3,0,2,0,0,1,0
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia batesiana,Zotu1864,1,0,1,0,2,4,1,2,0,1,1,3,2,0,5,0,1,0,2,7,1,0,3,1,1
+Eukaryota,NA,Rhodophyta,Florideophyceae,Corallinales,Lithophyllaceae,dropped,dropped,Zotu1868,10,0,6,0,0,3,0,0,0,3,0,0,4,0,3,0,2,0,0,4,0,0,0,6,0
+Eukaryota,NA,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Thalassiosiraceae,dropped,dropped,Zotu1871,10,2,2,1,8,4,8,3,1,0,0,2,0,0,0,3,0,1,9,2,4,0,1,0,0
+Eukaryota,Metazoa,Porifera,Calcarea,Leucosolenida,Leucosoleniidae,Leucosolenia,Leucosolenia sp. MMM-2001,Zotu1876,2,2,0,0,5,8,3,2,1,3,1,2,2,0,2,2,0,1,7,20,6,3,1,3,2
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia sp.,Zotu1885,3,7,5,9,64,37,56,35,40,20,29,16,16,17,27,13,4,12,70,60,51,33,8,6,14
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Zoantharia,Nanozoanthidae,Nanozoanthus,Nanozoanthus aff. harenaceus MISE-OSE3,Zotu1886,9,0,0,4,5,0,42,0,0,0,29,0,0,4,0,0,1,21,0,0,36,19,0,0,4
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu1893,10,81,45,74,141,120,152,90,127,84,105,121,183,164,100,57,62,92,225,215,181,116,117,129,127
+Eukaryota,Metazoa,Porifera,Homoscleromorpha,Homosclerophorida,Plakinidae,Plakortis,Plakortis sp. 2 JV-2014,Zotu1908,1,6,4,1,2,3,1,6,3,1,2,0,1,0,0,3,3,3,2,2,1,3,0,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,dropped,dropped,dropped,Zotu1916,10,7,4,0,0,0,3,3,5,2,1,2,0,1,2,4,0,1,1,0,0,0,0,1,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Suberitida,Halichondriidae,Halichondria,dropped,Zotu1920,4,2,2,0,0,0,0,3,1,0,0,1,0,0,1,2,7,0,1,4,0,0,1,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,dropped,dropped,dropped,Zotu1924,8,3,0,2,1,0,2,2,1,1,5,2,0,2,1,4,1,2,1,0,2,2,0,0,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Oceanospirillales,Endozoicomonadaceae,Endozoicomonas,dropped,Zotu1928,4,1,0,2,0,2,0,0,0,0,0,1,0,0,0,0,3,5,2,2,2,0,0,1,1
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu1934,8,0,3,1,1,5,2,0,0,1,1,3,0,0,0,1,3,3,3,5,0,0,0,0,0
+Bacteria,Pseudomonadati,Thermodesulfobacteriota,Desulfovibrionia,Desulfovibrionales,Desulfovibrionaceae,Oleidesulfovibrio,dropped,Zotu1940,2,0,0,0,0,3,1,0,0,0,3,1,0,4,2,1,1,2,0,0,0,4,0,0,2
+Eukaryota,Metazoa,dropped,dropped,dropped,dropped,dropped,dropped,Zotu1942,10,1,4,3,2,10,1,0,1,2,0,0,0,3,3,3,6,0,3,8,0,0,1,2,0
+Eukaryota,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,dropped,dropped,dropped,Zotu1945,2,0,3,1,4,169,1,0,0,0,0,0,6,0,0,0,2,1,5,251,5,0,0,3,3
+Eukaryota,Metazoa,Cnidaria,Hydrozoa,Siphonophorae,Forskaliidae,Forskalia,Forskalia edwardsii,Zotu1949,10,0,2,3,1,2,0,0,1,0,0,0,0,0,1,2,2,0,0,5,0,1,2,1,1
+Eukaryota,Metazoa,Porifera,Calcarea,dropped,dropped,dropped,dropped,Zotu1957,7,1,2,0,3,3,3,0,3,0,0,2,0,0,1,3,2,1,4,6,1,1,2,0,1
+Eukaryota,NA,NA,Chrysophyceae,Chromulinales,Chrysolepidomonadaceae,Chrysolepidomonas,Chrysolepidomonas dendrolepidota,Zotu1958,1,0,0,0,5,3,3,0,1,0,0,0,0,0,0,0,0,0,2,3,2,0,0,0,0
+Eukaryota,Metazoa,Porifera,Calcarea,Clathrinida,Clathrinidae,NA,Clathrinidae sp. 8 JV-2020,Zotu1959,1,8,6,7,16,12,15,3,7,1,3,7,8,3,6,7,8,7,14,16,9,0,2,4,1
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia sp.,Zotu1975,3,0,0,0,11,6,6,1,3,0,0,0,1,2,0,0,1,0,17,10,5,2,1,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,Chalinidae,dropped,dropped,Zotu1984,2,0,0,0,6,6,5,0,0,0,0,0,0,0,0,0,0,0,4,8,5,0,0,0,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Woeseiales,Woeseiaceae,NA,Woeseiaceae bacterium,Zotu1987,3,4,0,4,7,5,7,2,0,2,2,3,0,3,0,2,2,4,11,12,4,4,3,5,3
+Eukaryota,NA,NA,Polycystinea,Collodaria,Collozoidae,Cladococcus,Cladococcus sp. A MMS-2020,Zotu1989,3,0,0,3,0,0,12,0,0,0,0,0,0,1,0,0,0,2,0,0,2,1,0,0,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Moraxellales,Moraxellaceae,Acinetobacter,Acinetobacter indicus,Zotu1999,10,2,0,1,2,1,1,0,5,1,0,0,0,0,0,0,0,0,1,0,0,0,0,7,0
+Eukaryota,NA,NA,NA,NA,NA,NA,Stramenopiles sp. MAST-3C-sp1,Zotu2007,1,2,0,2,1,1,0,0,2,0,4,2,1,0,1,5,0,0,1,1,0,2,0,2,0
+Eukaryota,NA,NA,dropped,dropped,dropped,dropped,dropped,Zotu2012,2,2,2,3,14,6,5,9,13,2,6,2,0,5,0,5,2,1,7,5,7,4,3,4,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Tetractinellida,Geodiidae,Geodia,Geodia cydonium,Zotu2017,10,3,3,1,2,0,2,5,4,4,3,1,1,6,2,4,2,3,2,0,3,1,0,0,2
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Alteromonadales,Alteromonadaceae,Alteromonas,dropped,Zotu2021,10,1,2,1,7,2,0,0,0,0,0,1,0,1,0,1,2,0,3,1,0,0,1,0,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Woeseiales,Woeseiaceae,NA,Woeseiaceae bacterium,Zotu2024,3,0,0,3,5,0,0,0,1,3,0,0,0,3,0,0,0,2,1,1,0,0,0,0,0
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,Merulinidae,Favites,Favites abdita,Zotu2038,10,2,0,2,3,2,7,0,1,0,2,4,3,2,1,2,0,2,2,0,1,0,1,0,1
+Eukaryota,Metazoa,Mollusca,Gastropoda,Littorinimorpha,Cypraeidae,dropped,dropped,Zotu2040,3,0,5,0,0,4,0,1,0,2,0,0,3,0,2,0,1,0,0,8,0,0,0,0,0
+Eukaryota,Metazoa,Annelida,Polychaeta,Phyllodocida,Chrysopetalidae,Chrysopetalum,Chrysopetalum debile,Zotu2043,1,0,1,0,0,8,0,0,0,0,0,0,1,0,0,0,0,0,0,5,0,0,0,2,0
+Eukaryota,NA,Rhodophyta,Florideophyceae,Corallinales,Porolithaceae,Porolithon,Porolithon sp.,Zotu2045,4,0,0,0,6,10,4,1,0,1,2,1,1,1,0,2,2,1,4,23,7,3,3,2,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,Petrosiidae,dropped,dropped,Zotu2050,10,7,0,2,5,1,2,1,4,1,0,3,0,1,2,6,0,0,6,1,0,0,1,1,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,dropped,dropped,NA,dropped,Zotu2055,4,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,2,0,0,0,0,0,1,0,0
+Eukaryota,Metazoa,Bryozoa,Gymnolaemata,Cheilostomatida,dropped,dropped,dropped,Zotu2057,10,0,0,1,0,4,1,1,1,0,0,0,0,0,0,1,0,3,3,2,0,0,0,3,0
+Eukaryota,Metazoa,Porifera,Homoscleromorpha,Homosclerophorida,Oscarellidae,Oscarella,Oscarella sp. 1 JV-2020,Zotu2061,3,2,0,0,0,1,0,0,1,1,0,4,0,0,2,2,0,1,0,2,0,1,0,1,1
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Oceanospirillales,Endozoicomonadaceae,Endozoicomonas,Endozoicomonas sp.,Zotu2067,4,8,3,5,4,5,1,1,0,3,0,1,6,1,3,2,0,3,9,10,6,0,1,5,1
+Eukaryota,Metazoa,Porifera,Demospongiae,dropped,dropped,dropped,dropped,Zotu2071,10,2,0,0,6,4,7,1,1,0,0,0,0,1,0,0,0,0,12,7,8,0,0,4,0
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu2074,10,0,2,1,13,1,14,13,27,3,11,7,0,8,6,2,0,1,14,5,25,24,3,2,7
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Cellvibrionales,Cellvibrionaceae,NA,Cellvibrionaceae bacterium,Zotu2077,1,0,2,2,5,4,4,0,0,0,0,0,0,0,0,1,3,0,2,11,3,0,0,0,0
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,Merulinidae,dropped,dropped,Zotu2080,10,1,0,2,9,13,19,6,4,6,18,2,11,12,7,0,5,14,12,16,31,17,1,2,9
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,dropped,dropped,dropped,Zotu2099,10,2,0,1,4,3,9,1,6,3,6,0,1,0,5,2,0,0,16,4,5,4,1,1,0
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Prochlorococcaceae,Prochlorococcus,dropped,Zotu2100,10,2,0,1,4,0,0,0,1,0,2,1,1,2,1,3,3,1,3,2,1,0,0,2,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,Acarnidae,Megaciella,Megaciella sanctuarium,Zotu2108,6,0,7,2,2,3,0,4,3,0,4,0,0,0,4,6,3,0,4,2,2,0,0,1,0
+Eukaryota,Metazoa,Annelida,Polychaeta,Phyllodocida,Hesionidae,dropped,dropped,Zotu2112,6,0,1,0,0,0,3,0,0,0,1,0,3,2,2,0,4,0,0,2,0,0,0,2,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Thiotrichales,Fastidiosibacteraceae,Cysteiniphilum,Cysteiniphilum sp. QT6929,Zotu2125,1,2,0,3,0,0,1,0,1,0,0,1,2,0,0,0,1,0,0,2,3,3,1,0,0
+Eukaryota,Metazoa,Porifera,Calcarea,Clathrinida,Clathrinidae,Clathrina,Clathrina sp. OV-2012,Zotu2126,4,3,0,2,0,4,0,0,0,1,0,0,0,3,0,2,0,3,2,0,0,0,0,0,0
+Eukaryota,NA,Picozoa,Picomonadea,Picomonadida,Picomonadidae,Picomonas,Picomonas judraskeda,Zotu2132,1,6,0,2,5,9,4,0,0,0,0,3,0,3,2,2,0,1,2,7,4,0,1,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Tetractinellida,Azoricidae,Leiodermatium,dropped,Zotu2137,10,6,1,1,5,2,3,0,0,3,1,1,3,2,0,0,3,1,1,3,1,3,1,3,2
+Eukaryota,Metazoa,Cnidaria,Hydrozoa,Trachymedusae,Rhopalonematidae,Aglaura,Aglaura hemistoma,Zotu2140,2,1,4,0,2,2,0,0,0,0,1,1,3,0,0,2,0,2,0,0,0,0,2,3,0
+Eukaryota,Metazoa,Mollusca,Bivalvia,Pectinida,Pectinidae,dropped,dropped,Zotu2146,7,0,0,4,0,0,0,0,0,0,5,0,0,1,0,0,0,4,0,0,3,8,0,0,1
+Eukaryota,NA,NA,dropped,dropped,dropped,dropped,dropped,Zotu2155,2,0,3,1,26,20,18,6,4,8,8,5,3,1,6,6,4,2,27,27,14,9,7,4,2
+Eukaryota,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,dropped,dropped,dropped,Zotu2166,2,0,2,1,8,20,7,0,0,0,0,1,5,3,0,2,1,9,11,21,4,0,0,1,1
+Eukaryota,Metazoa,Porifera,Calcarea,Leucosolenida,dropped,dropped,dropped,Zotu2169,10,0,0,0,0,8,0,0,0,0,0,0,0,2,1,0,2,0,0,4,0,0,0,5,0
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu2181,10,0,0,0,0,11,2,4,8,2,2,0,1,3,2,0,1,0,3,6,3,1,0,2,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,NA,NA,Pseudomonadales bacterium,Zotu2196,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,3,0,5,0,1,0,0,2,0,5
+Eukaryota,Metazoa,Porifera,Demospongiae,Dictyoceratida,dropped,dropped,dropped,Zotu2200,10,0,0,0,1,0,0,0,3,1,0,3,0,0,0,0,7,0,3,0,0,0,0,2,1
+Eukaryota,NA,NA,Polycystinea,Spumellaria,dropped,dropped,dropped,Zotu2215,4,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,11,0,0,0,0,0
+Bacteria,NA,NA,NA,NA,NA,NA,bacterium SCSIO 12696,Zotu2216,2,0,1,0,0,1,1,0,0,1,0,0,1,3,0,0,0,1,4,8,3,0,0,1,0
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Zoantharia,Nanozoanthidae,Nanozoanthus,Nanozoanthus aff. harenaceus MISE-OSE3,Zotu2225,9,0,0,6,0,0,10,0,0,0,2,0,0,0,0,0,0,2,0,0,17,4,0,0,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Oceanospirillales,Endozoicomonadaceae,Endozoicomonas,Endozoicomonas sp.,Zotu2230,4,2,0,0,5,3,1,0,3,0,1,1,0,0,0,0,0,1,6,0,2,0,1,0,0
+Eukaryota,NA,NA,Polycystinea,Spumellaria,dropped,dropped,dropped,Zotu2239,4,0,1,5,0,0,0,0,0,0,3,0,0,1,1,0,0,2,0,0,2,3,0,0,0
+Eukaryota,NA,NA,Pelagophyceae,Pelagomonadales,Pelagomonadaceae,Pelagococcus,Pelagococcus subviridis,Zotu2243,1,0,1,1,4,1,6,0,0,0,0,1,0,0,1,1,1,1,8,3,4,0,0,0,0
+Eukaryota,Metazoa,Porifera,Calcarea,dropped,dropped,dropped,dropped,Zotu2266,10,2,0,5,4,0,0,7,2,1,0,0,1,0,0,7,4,1,0,2,4,1,1,2,0
+Eukaryota,NA,NA,Dinophyceae,Blastodiniales,NA,Blastodinium,Blastodinium contortum,Zotu2267,2,2,4,5,1,0,1,1,1,0,0,0,3,4,0,3,4,3,1,3,1,0,2,2,0
+Eukaryota,Metazoa,Cnidaria,Scyphozoa,Coronatae,dropped,dropped,dropped,Zotu2268,3,2,0,0,2,0,0,0,1,2,0,3,1,0,0,7,0,0,5,0,0,0,0,0,0
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu2269,10,2,2,5,0,0,4,2,6,3,0,0,1,0,1,7,0,1,1,2,1,6,1,1,4
+Bacteria,NA,NA,NA,NA,NA,NA,bacterium SCSIO 12696,Zotu2272,2,1,0,0,8,0,1,0,0,0,1,0,0,1,0,0,1,0,1,1,0,0,0,3,0
+Eukaryota,NA,Bacillariophyta,Coscinodiscophyceae,Chaetocerotales,Chaetocerotaceae,Chaetoceros,dropped,Zotu2273,2,1,0,0,2,2,0,1,0,0,0,0,0,0,0,0,0,0,4,1,0,0,0,0,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Alteromonadales,Alteromonadaceae,Alteromonas,dropped,Zotu2275,10,3,3,1,13,12,8,0,0,0,0,3,1,2,2,3,1,0,11,21,4,2,1,0,0
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,Synechococcaceae,Synechococcus,dropped,Zotu2276,10,4,0,5,0,2,0,0,0,0,0,1,5,0,0,9,2,4,1,8,0,0,3,1,1
+Bacteria,Bacillati,Cyanobacteriota,Cyanophyceae,Synechococcales,dropped,dropped,dropped,Zotu2277,10,6,2,4,0,4,4,0,0,1,1,6,0,1,1,0,0,6,0,0,0,0,1,2,1
+Eukaryota,Metazoa,Porifera,Demospongiae,dropped,dropped,dropped,dropped,Zotu2283,10,4,1,0,24,18,20,17,13,16,6,5,11,5,15,4,4,0,21,36,22,12,4,3,2
+Eukaryota,Metazoa,Porifera,Calcarea,Leucosolenida,dropped,dropped,dropped,Zotu2291,10,12,1,2,3,6,1,1,1,0,0,5,3,0,2,8,3,3,3,3,0,0,2,1,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,Microcionidae,dropped,dropped,Zotu2293,10,7,4,1,0,1,0,2,3,7,1,0,2,1,8,1,3,7,6,1,2,9,1,4,1
+Eukaryota,Metazoa,Porifera,Demospongiae,dropped,dropped,dropped,dropped,Zotu2299,10,1,1,0,10,7,3,5,5,3,1,0,0,0,5,2,4,1,4,9,6,2,2,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,Petrosiidae,Neopetrosia,Neopetrosia dendrocrevacea,Zotu2304,10,0,0,0,2,4,1,1,1,7,1,0,0,0,13,0,2,1,2,6,0,0,0,1,0
+Eukaryota,Metazoa,Arthropoda,Pycnogonida,Pantopoda,Tanystylidae,Tanystylum,Tanystylum californicum,Zotu2305,1,0,3,0,0,3,0,0,0,1,0,0,0,0,1,0,5,0,0,6,0,0,0,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,Chalinidae,Haliclona,dropped,Zotu2315,7,0,0,0,1,6,1,0,0,0,0,0,0,0,0,0,0,0,2,4,0,0,0,0,2
+Eukaryota,Metazoa,Porifera,dropped,dropped,dropped,dropped,dropped,Zotu2319,10,0,2,0,0,4,0,0,0,0,0,0,0,1,0,0,0,0,3,7,1,0,1,2,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,NA,NA,NA,Gammaproteobacteria bacterium,Zotu2326,5,0,1,0,0,4,0,0,0,0,0,0,0,1,0,0,0,0,0,8,0,0,0,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Tetractinellida,dropped,dropped,dropped,Zotu2337,10,0,0,0,2,3,0,1,1,5,0,1,1,2,2,0,0,0,4,5,0,5,0,0,0
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,dropped,dropped,dropped,Zotu2339,10,0,0,0,3,3,0,1,5,1,1,2,0,0,0,2,0,2,2,0,0,0,2,0,0
+Eukaryota,Metazoa,Cnidaria,Anthozoa,Scleractinia,Poritidae,Porites,dropped,Zotu2340,8,6,10,3,33,46,30,9,11,15,21,11,15,8,25,8,6,7,31,70,34,21,11,16,13
+Eukaryota,Metazoa,Porifera,Demospongiae,Haplosclerida,Petrosiidae,dropped,dropped,Zotu2344,10,2,0,0,13,6,10,4,5,6,2,2,0,2,8,5,1,0,3,10,9,5,0,2,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Oceanospirillales,Endozoicomonadaceae,Endozoicomonas,Endozoicomonas sp. GU-1,Zotu2361,2,0,0,1,6,0,0,0,0,0,0,1,2,0,0,0,1,2,2,0,0,0,0,3,0
+Eukaryota,Metazoa,Annelida,Polychaeta,Eunicida,Eunicidae,dropped,dropped,Zotu2377,5,0,0,2,0,6,7,0,0,3,2,0,0,0,0,0,0,0,0,10,18,0,0,0,1
+Eukaryota,NA,NA,Chrysophyceae,Chromulinales,Chrysolepidomonadaceae,Chrysolepidomonas,Chrysolepidomonas dendrolepidota,Zotu2381,1,0,0,1,5,0,2,0,0,0,0,2,0,0,0,1,0,0,2,5,3,0,0,1,0
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,dropped,Zotu2396,10,0,0,0,3,1,6,4,5,0,6,0,0,1,2,0,0,0,4,2,7,0,1,0,0
+Eukaryota,NA,Bacillariophyta,Fragilariophyceae,Thalassionemales,Thalassionemataceae,Thalassiothrix,Thalassiothrix sp.,Zotu2399,2,0,1,0,1,1,3,1,0,1,0,1,0,1,0,0,3,2,1,2,1,0,0,0,0
+Eukaryota,Metazoa,Chaetognatha,Sagittoidea,Aphragmophora,Sagittidae,Parasagitta,Parasagitta elegans,Zotu2400,10,0,0,0,0,8,1,0,0,0,0,1,0,0,0,2,0,0,8,5,4,0,0,0,0
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia sp.,Zotu2406,3,25,21,23,80,100,63,25,21,22,26,24,35,23,30,21,37,19,99,190,72,21,23,36,27
+Eukaryota,NA,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia americana,Zotu2428,10,3,2,1,1,0,2,3,1,0,0,0,1,0,1,2,4,0,2,0,1,0,0,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Dendroceratida,Dictyodendrillidae,Spongionella,Spongionella sp. SI_442K,Zotu2430,10,1,2,2,4,4,0,0,0,0,0,0,0,0,0,2,1,1,0,2,1,0,0,0,0
+Eukaryota,Metazoa,Nemertea,Enopla,Monostilifera,Tetrastemmatidae,Tetrastemma,dropped,Zotu2432,10,2,0,4,0,0,2,0,2,1,5,0,0,0,0,0,0,5,0,0,0,1,0,0,1
+Eukaryota,Metazoa,Cnidaria,Hydrozoa,Leptothecata,Plumulariidae,Plumularia,dropped,Zotu2437,3,3,0,0,1,0,0,0,5,0,0,1,0,0,0,4,0,0,6,0,0,0,1,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Tetractinellida,Corallistidae,Corallistes,dropped,Zotu2466,10,0,0,0,5,2,3,5,2,2,3,1,5,0,1,0,0,0,7,0,6,4,2,3,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Oceanospirillales,Endozoicomonadaceae,Endozoicomonas,dropped,Zotu2471,4,0,0,1,1,4,0,1,0,0,0,0,0,0,0,0,1,0,1,2,1,0,1,1,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Agelasida,Agelasidae,Agelas,dropped,Zotu2503,9,0,1,0,1,5,2,2,1,1,1,1,2,0,3,2,0,3,2,5,1,3,1,0,0
+Eukaryota,NA,NA,Eustigmatophyceae,Eustigmatales,Monodopsidaceae,Nannochloropsis,Nannochloropsis gaditana,Zotu2518,1,6,7,7,3,2,6,3,0,0,3,2,3,0,1,6,2,0,3,3,1,2,0,2,1
+Eukaryota,Metazoa,Porifera,Demospongiae,Poecilosclerida,dropped,dropped,dropped,Zotu2531,8,0,0,3,0,0,1,1,4,0,0,0,0,0,6,2,1,0,3,0,0,0,0,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,dropped,dropped,dropped,dropped,Zotu2546,10,0,3,0,0,2,0,0,0,0,0,0,2,0,0,0,0,1,0,5,0,0,1,0,0
+Eukaryota,NA,NA,dropped,dropped,dropped,dropped,dropped,Zotu2548,3,0,0,1,4,19,6,3,0,4,2,0,0,4,2,1,4,0,19,22,9,3,1,4,0
+Eukaryota,Metazoa,Mollusca,Gastropoda,Lepetellida,Fissurellidae,Diodora,dropped,Zotu2549,10,0,0,0,0,0,0,0,0,3,0,0,0,0,4,0,1,3,0,6,1,2,0,0,0
+Eukaryota,NA,NA,Polycystinea,Spumellaria,Coccodiscidae,Didymocyrtis,Didymocyrtis sp. (in: eukaryotes),Zotu2551,1,0,4,0,0,1,0,0,0,4,2,2,2,1,5,0,4,2,0,2,0,0,0,2,0
+Eukaryota,Metazoa,Nemertea,Enopla,Monostilifera,Tetrastemmatidae,Tetrastemma,Tetrastemma sp. VI NEP-2021,Zotu2554,10,1,0,0,0,1,2,0,0,3,0,0,0,0,0,1,3,2,0,0,1,2,0,0,1
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,NA,NA,NA,Gammaproteobacteria bacterium,Zotu2556,2,0,0,2,3,1,0,0,0,1,0,2,0,3,0,1,1,1,6,6,0,0,3,1,0
+Eukaryota,Viridiplantae,Chlorophyta,Chloropicophyceae,Chloropicales,Chloropicaceae,Chloropicon,dropped,Zotu2558,10,0,0,0,0,0,0,0,2,0,0,1,0,2,0,0,0,1,1,0,2,0,2,1,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Tetractinellida,Geodiidae,dropped,dropped,Zotu2561,10,0,0,0,1,1,0,0,0,1,0,0,0,0,2,0,1,0,3,1,3,2,2,0,2
+Eukaryota,NA,NA,NA,NA,NA,NA,Stramenopiles sp. MAST-3C-sp2,Zotu2576,1,0,1,3,0,2,0,0,0,0,0,0,0,3,1,3,0,1,0,2,1,1,0,0,0
+Eukaryota,Metazoa,Porifera,Demospongiae,Agelasida,Agelasidae,Agelas,dropped,Zotu2578,9,0,0,0,3,10,3,0,7,2,0,0,6,0,1,1,1,0,3,12,5,1,0,1,0
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,NA,NA,Pseudomonadales bacterium,Zotu2591,1,2,0,0,1,0,2,0,0,2,1,1,2,1,3,0,2,0,1,2,2,1,0,0,4
+Bacteria,Pseudomonadati,Pseudomonadota,Gammaproteobacteria,Thiotrichales,Fastidiosibacteraceae,Cysteiniphilum,Cysteiniphilum sp. QT6929,Zotu2602,1,0,2,2,2,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,1,3,0,0,1
+Eukaryota,Metazoa,Porifera,Calcarea,Clathrinida,Clathrinidae,NA,Clathrinidae sp. 8 JV-2020,Zotu2605,3,0,2,1,3,4,1,0,0,3,4,1,1,9,0,2,1,1,0,8,5,6,0,2,2
